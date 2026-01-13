@@ -29,5 +29,4 @@ Check out my repositories for hands-on projects in:
 
 
 ## 📧 Let's Connect
-- **Email:** [ahmedekramy303@gmail.com]
 - **LinkedIn:** [https://www.linkedin.com/in/ahmedgeeter578/]
