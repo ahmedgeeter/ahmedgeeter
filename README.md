@@ -1,32 +1,28 @@
-# 👋 Ahmed Geeter - DevOps Engineer
+# 👋 Ahmed Ekramy | AI Backend Engineer
 
-Building scalable, automated cloud infrastructure | Cairo, Egypt
+**Building Scalable RAG Systems & Intelligent APIs | Cairo, Egypt**
 
-## About Me
-- 🎓 **B.S.C Computer Science** - Mansoura University (2023)
-- 🚀 Passionate about **CI/CD automation** and **infrastructure as code**
-- 💻 Experienced with containerization and Kubernetes orchestration
-- 🔧 Always learning and building production-ready systems
-
-## 🛠️ Tech Stack
-Containerization: Docker, Docker Compose, Kubernetes
-CI/CD: Jenkins, GitLab CI, GitHub Actions
-Infrastructure as Code: Terraform, Ansible
-Cloud: AWS (EC2, S3, RDS, VPC)
-Languages: Python, Bash, YAML, SQL
-Monitoring: Prometheus, Grafana
-
-
-
-## 📌 Featured Projects
-Check out my repositories for hands-on projects in:
-- Kubernetes cluster deployments
-- Jenkins CI/CD pipelines
-- Terraform infrastructure automation
-- Ansible playbooks for server automation
+## 🚀 Professional Summary
+- 🎓 **B.Sc. in Computer Science** - Mansoura University (2023)
+- 🤖 **AI Specialist**: 8 months of experience as an **AI Intern**, focusing on LLM integration and Agentic workflows
+- 🛠️ **Production-Ready**: Expert in building scalable backends with a strong focus on automation and system reliability
 
 ---
 
+## 🧠 Technical Expertise
+
+### **AI & LLM Engineering**
+- **Frameworks**: LangChain, RAG Systems, AI Agents.
+- **Models**: Gemini 1.5 Pro, GPT-4, Llama 3.
+- **Vector DBs**: Pinecone, ChromaDB.
+- **Embeddings**: Local (HuggingFace) & Cloud-based embedding strategies.
+
+### **Backend & Infrastructure**
+- **Languages/Frameworks**: Python (Advanced), FastAPI, RESTful APIs.
+- **Cloud & Deployment**: AWS, Docker, Kubernetes (EKS).
+- **Automation**: GitHub Actions, Terraform (for scalable AI platforms).
+
+---
 
 ## 📧 Let's Connect
-- **LinkedIn:** [https://www.linkedin.com/in/ahmedgeeter578/]
+- **LinkedIn**: [ahmed-ai-dev](https://www.linkedin.com/in/ahmed-ai-dev/)
