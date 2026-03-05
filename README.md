@@ -35,8 +35,6 @@ I am a Backend-focused **AI Engineer and Red Teamer** bridging the gap between A
 
 ---
 
-## 📈 GitHub Stats
-![Ahmed's GitHub stats](https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=radical)
 
 ---
 
