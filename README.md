@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=230&section=header&text=Ahmed%20Gaiter&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Building%20Production-Ready%20RAG%20%26%20LLM%20Systems&descAlignY=60&descAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=220&section=header&text=Ahmed%20Gaiter&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Building%20Production-Ready%20RAG%20%26%20LLM%20Systems&descAlignY=60&descAlign=50" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&center=true&vCenter=true&width=900&lines=FastAPI+%7C+Python+%7C+RAG+%7C+LLM+Applications;AI+Backend+Engineering+%7C+Model+Alignment+%7C+Docker;Building+reliable%2C+multilingual%2C+production-ready+AI+systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&center=true&vCenter=true&width=900&lines=FastAPI+%7C+Python+%7C+RAG+%7C+LLM+Applications;AI+Backend+Engineering+%7C+Model+Alignment+%7C+Docker;Building+reliable+and+multilingual+AI+systems" alt="Typing SVG" />
 
 <br/>
 
@@ -15,11 +15,13 @@
 <a href="https://wa.me/201069334256">
   <img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
+<a href="https://github.com/ahmedgeeter">
+  <img src="https://img.shields.io/badge/GitHub-ahmedgeeter-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=ahmedgeeter&style=for-the-badge&color=6366F1" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/ahmedgeeter?style=for-the-badge&logo=github&color=8B5CF6&labelColor=0F172A" alt="Followers" />
 
 </div>
 
@@ -55,59 +57,58 @@ My work combines:
 ## Tech Stack
 
 ### AI / LLM
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-0F172A?style=for-the-badge&logo=graphql&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-4F46E5?style=for-the-badge&logo=openai&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-7C3AED?style=for-the-badge)
-![Pinecone](https://img.shields.io/badge/Pinecone-0EA5E9?style=for-the-badge&logo=pinecone&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-4F46E5?style=for-the-badge)
+![LLMs](https://img.shields.io/badge/LLMs-7C3AED?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-0F172A?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-9333EA?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-0EA5E9?style=for-the-badge)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-F97316?style=for-the-badge)
 
 ### Backend
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-0F172A?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-1E293B?style=for-the-badge)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-1E293B?style=for-the-badge)
+![REST API](https://img.shields.io/badge/REST%20API-0F172A?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-### Frontend / Tools
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 
 ---
 
 ## Featured Projects
 
-<p align="center">
-  <a href="https://github.com/ahmedgeeter/ai-rag-chatbot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ahmedgeeter&repo=ai-rag-chatbot&theme=tokyonight&hide_border=true&border_radius=12" />
-  </a>
-  <a href="https://github.com/ahmedgeeter/credit-card-fraud-api">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ahmedgeeter&repo=credit-card-fraud-api&theme=tokyonight&hide_border=true&border_radius=12" />
-  </a>
-</p>
+### Explainable Multilingual RAG Workspace
+- Built an end-to-end multilingual RAG application using **FastAPI, Next.js, Groq, and FAISS**
+- Supports **Arabic/English PDF chat**, **agentic routing**, **source citations**, and **retrieval transparency**
+- Designed to showcase practical AI engineering around **retrieval, routing, backend architecture, and explainability**
 
-### Highlighted Work
-- **Explainable Multilingual RAG Workspace**
-  - Built an end-to-end multilingual RAG application with **FastAPI, Next.js, Groq, and FAISS**
-  - Supports **Arabic/English PDF chat**, **agentic routing**, **source citations**, and **retrieval transparency**
-- **Credit Card Fraud Detection API**
-  - Built a production-style FastAPI service for fraud prediction with model inference, preprocessing, and Dockerized deployment
+[![Repo](https://img.shields.io/badge/Repository-View%20Project-181717?style=for-the-badge&logo=github)](https://github.com/ahmedgeeter/ai-rag-chatbot)
+
+### Credit Card Fraud Detection API
+- Built a production-style FastAPI service for fraud prediction
+- Included preprocessing, model inference, Dockerized deployment, and API documentation
+- Focused on practical ML system design and backend delivery
+
+[![Repo](https://img.shields.io/badge/Repository-View%20Project-181717?style=for-the-badge&logo=github)](https://github.com/ahmedgeeter/credit-card-fraud-api)
 
 ---
 
-## GitHub Stats
+## Professional Highlights
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=ahmedgeeter&theme=tokyonight&hide_border=true&border_radius=12" />
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedgeeter&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" />
-</p>
+- **AI Backend Engineering**
+  - Building scalable APIs and backend services for AI-powered products
+- **RAG Engineering**
+  - Designing retrieval pipelines, document-grounded answers, and multilingual AI workflows
+- **AI Safety & Alignment**
+  - Experience in RLHF-style evaluation, red teaming, and output quality analysis
+- **Production Mindset**
+  - Focus on Docker, maintainability, reliability, and real deployment considerations
 
 ---
 
@@ -136,4 +137,4 @@ I’m especially interested in teams building **intelligent products**, **backen
   </a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:4F46E5&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:4F46E5&height=110&section=footer" />
