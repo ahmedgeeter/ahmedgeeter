@@ -1,7 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=220&section=header&text=Ahmed%20Gaiter&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20Building%20Production-Ready%20RAG%20%26%20LLM%20Systems&descAlignY=60&descAlign=50" />
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=220&section=header&text=Ahmed%20Gaiter&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=45" />
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&center=true&vCenter=true&width=900&lines=FastAPI+%7C+Python+%7C+RAG+%7C+LLM+Applications;AI+Backend+Engineering+%7C+Model+Alignment+%7C+Docker;Building+reliable+and+multilingual+AI+systems" alt="Typing SVG" />
 
 <br/>
