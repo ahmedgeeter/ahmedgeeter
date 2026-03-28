@@ -45,7 +45,7 @@ My work combines:
 - Exploring **production-grade backend patterns** for AI products
 
 ### Background
-- **AI Backend Engineer Intern** at **Springer Capital**
+- **AI Backend Engineer ** at **Springer Capital**
 - **AI Model Alignment Specialist (RLHF)** at **Outlier**
 - **AI Video Data Specialist & Quality Auditor (Tier 3)** at **Atlas Capture**
 - **B.Sc. in Computer Science** — Mansoura University
