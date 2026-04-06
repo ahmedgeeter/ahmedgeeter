@@ -7,7 +7,6 @@
 <img width="200" src="https://c.tenor.com/iAMuI4BD10AAAAAd/tenor.gif" alt="Ahmed Gaiter AI Engineer" />
 <img width="200" src="https://c.tenor.com/y2JXkY1pXkwAAAAC/tenor.gif" alt="Ahmed Gaiter Coding" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:4F46E5,100:d946ef&height=220&section=header&text=Ahmed%20Gaiter&fontSize=54&fontColor=ffffff&animation=twinkling&desc=AI%20Engineer%20%7C%20RAG%20%26%20LLM%20Systems%20%7C%20Backend%20Specialist%20%7C%20Egypt&descAlignY=68&descSize=17" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=d946ef&center=true&vCenter=true&width=1000&lines=Ahmed+Gaiter+%7C+AI+Engineer+%7C+Egypt;Production-Ready+RAG+%26+LLM+Systems;FastAPI+%7C+LangChain+%7C+LangGraph+%7C+Pinecone+%7C+Docker;Building+AI+systems+that+survive+real-world+production." alt="Ahmed Gaiter AI Engineer Typing" />
 
