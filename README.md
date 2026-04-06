@@ -1,10 +1,16 @@
 <div align="center">
 
-<img width="180" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnA1dGVleGRxNGZhOXppaGNlNTU0b3BqYXE3cnYwd2R6YXFldXJxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/lP8xu5t2DLGG045H8F/giphy.gif" alt="Ahmed Gaiter - AI Engineer" />
+<!-- SEO: Ahmed Gaiter, Ahmed Ekramy Gaiter, AI Engineer Egypt, RAG Developer, LLM Engineer Egypt,
+     LangChain Developer, LangGraph Expert, FastAPI Python AI, Agentic AI Engineer, Production RAG Systems,
+     Pinecone ChromaDB Engineer, AI Backend Specialist Egypt, ahmedgeeter, ahmed-ai-dev -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:4F46E5,100:d946ef&height=220&section=header&text=Ahmed%20Gaiter&fontSize=54&fontColor=ffffff&animation=twinkling&desc=AI%20Engineer%20%7C%20RAG%20%26%20LLM%20Systems%20%7C%20Backend%20Specialist%20%7C%20Egypt&descAlignY=68&descSize=17" />
+<img width="200" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Ahmed Gaiter - AI Engineer" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=d946ef&center=true&vCenter=true&width=1000&lines=Ahmed+Gaiter+%E2%80%94+AI+Engineer+based+in+Egypt;Production-Ready+RAG+%26+LLM+Systems+Developer;FastAPI+%7C+LangChain+%7C+LangGraph+%7C+Pinecone+%7C+Docker;Building+AI+that+works+outside+the+demo." alt="Ahmed Gaiter AI Engineer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:4F46E5,100:d946ef&height=220&section=header&text=Ahmed%20Gaiter&fontSize=54&fontColor=ffffff&animation=twinkling&desc=AI%20Engineer%20%7C%20RAG%20%26%20LLM%20Systems%20%7C%20Backend%20Specialist%20%7C%20Egypt&descAlignY=68&descSize=17" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=d946ef&center=true&vCenter=true&width=1000&lines=Ahmed+Gaiter+%7C+AI+Engineer+%7C+Egypt;Production-Ready+RAG+%26+LLM+Systems;FastAPI+%7C+LangChain+%7C+LangGraph+%7C+Pinecone+%7C+Docker;Building+AI+systems+that+survive+real-world+production." alt="Ahmed Gaiter AI Engineer Typing" />
+
+<br/>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ahmed-ai-dev/">
@@ -22,15 +28,13 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ahmedgeeter&label=Profile+Views&color=7C3AED&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Open%20To%20Work-Remote%20%7C%20Hybrid%20%7C%20Contract-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white" />
+  <img src="https://komarev.com/ghpvc/?username=ahmedgeeter&label=Profile+Views&color=7C3AED&style=for-the-badge" alt="Ahmed Gaiter Profile Views" />
+  <img src="https://img.shields.io/badge/Status-Available%20for%20AI%20Engineering%20Roles-22c55e?style=for-the-badge" />
 </p>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
 </div>
-
----
-
-<!-- SEO: Ahmed Gaiter, Ahmed Ekramy Gaiter, AI Engineer Egypt, RAG Developer, LLM Engineer, LangChain Developer, LangGraph, FastAPI Python, Agentic AI, Production AI Systems -->
 
 ## Who I Am
 
@@ -38,41 +42,68 @@ I'm **Ahmed Gaiter**, an AI Engineer from Egypt focused on one thing: **building
 
 My background is in backend engineering, and that shapes how I approach every AI project — with a bias for reliability, clean architecture, and systems that don't break when real users show up. I've worked across RAG pipelines, LLM integrations, multi-agent workflows, and safety evaluation — always with production deployment as the end goal.
 
-Currently available for **freelance, contract, and full-time remote opportunities** in AI engineering.
-
 ---
 
 ## What I Actually Build
 
-Most AI engineers can run a Jupyter notebook. I build the thing that runs in production.
+> *Most AI engineers can run a Jupyter notebook. I build the thing that runs in production.*
 
 ### Retrieval-Augmented Generation (RAG)
-Not just a basic vector search. I architect full RAG pipelines with smart chunking, embedding strategies, query rewriting, re-ranking layers, and source-grounded answers. I've worked with both **Pinecone** and **ChromaDB**, and I know when to use each.
+Not just basic vector search. I architect full RAG pipelines with smart chunking, embedding strategies, query rewriting, re-ranking layers, and source-grounded answers. Hands-on with both **Pinecone** and **ChromaDB** — I know when to use each.
 
 ### LLM-Powered Backend APIs
-I build **FastAPI** services that wrap LLM logic with proper validation, error handling, async design, and clean separation of concerns. These are APIs you can actually put behind a product.
+I build **FastAPI** services that wrap LLM logic with proper validation, async design, error handling, and clean separation of concerns. APIs you can actually put behind a product.
 
 ### AI Agents & Orchestration
-Multi-step agent systems using **LangGraph** for stateful orchestration. Tool use, memory management, conditional branching — I think in workflows, not just prompts.
+Multi-step agent systems using **LangGraph** for stateful orchestration — tool use, memory management, and conditional branching. I think in workflows, not just prompts.
 
 ### Safety & Evaluation
-I've done RLHF work at **Outlier** and AI evaluation at **Alignerr**. I think about hallucination detection, guardrails, and evaluation loops as core parts of the product — not optional extras.
+RLHF work at **Outlier**, evaluation at **Alignerr**, and Tier-3 auditing at **Atlas Capture**. I treat hallucination detection, guardrails, and evaluation loops as core parts of the product — not optional extras.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ---
 
 ## Experience
 
-**Freelance AI Developer** *(Jan 2025 – Present)*  
-Production-grade RAG & LLM workflows for clients. End-to-end: architecture, API design, deployment, iteration.
+**AI Engineer — RAG & Applied AI** *(Freelance · Jun 2023 – Present)*  
+Building production-style AI applications independently — RAG systems, LLM backends, and automation pipelines.  
+Designed and shipped applied AI products using Python, FastAPI, LangChain, FAISS, Docker, Groq, and Next.js.  
+Built a multilingual RAG workspace (Arabic & English) with source-grounded answers and a chunk inspector layer.  
+Built a credit card fraud detection API using XGBoost with containerized FastAPI endpoints — 0.95+ ROC-AUC in testing.
 
-**AI Backend Engineer @ Springer Capital**  
-Built Python automation scripts, FastAPI services with AI model integrations, and handled Docker & CI/CD workflows for scalable internal tools.
+---
 
-**AI Model Alignment Specialist @ Outlier**  
-Reviewed Python and SQL code generated by LLMs. Red teaming, hallucination detection, and prompt engineering for safety at scale.
+**AI Video Data Specialist & Quality Auditor — Tier 3** *(Atlas Capture · Dec 2025 – Present · Remote)*  
+Tier-3 auditor for Large Vision Models — data integrity, motion tracking, and annotation consistency across complex video datasets.  
+Performed temporal segmentation and labeling on video sequences to improve motion recognition quality with 95%+ precision.  
+Applied advanced labeling standards to upgrade training data quality and reduce pipeline errors in vision model systems.
 
-**AI Reviewer @ Alignerr**  
-Model evaluation and review — quality signals for production LLM systems.
+---
+
+**AI Backend Engineer** *(Springer Capital · Internship · May 2025 – Sep 2025 · US Remote)*  
+Built Python automation scripts and FastAPI services to support high-speed AI workflows in a trading/finance environment.  
+Designed containerized services with Docker and improved deployment reliability across Agile sprints.  
+Collaborated with remote engineers to integrate AI-driven features into backend workflows with CI/CD best practices.
+
+---
+
+**AI Model Alignment Specialist — RLHF** *(Outlier · Part-time · Dec 2024 – Apr 2025 · Remote)*  
+Evaluated and improved LLM code-generation quality (Python / SQL) through RLHF-style review and red-teaming.  
+Audited model outputs for correctness, security issues, and instruction adherence across coding and reasoning tasks.  
+Designed adversarial test cases to surface reasoning failures and unsafe behaviors in production LLM systems.
+
+---
+
+**AI Reviewer** *(Alignerr · Part-time · Mar 2025 – Apr 2025 · Remote)*  
+Evaluated LLM outputs for quality, correctness, and safety — contributing evaluation signals to model improvement pipelines.
+
+---
+
+**IT Specialist** *(Hamza Emam Company · Full-time · Aug 2023 – Aug 2024 · On-site)*  
+Technical support, network maintenance, and troubleshooting across hardware, software, and user-facing systems.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ---
 
@@ -80,10 +111,10 @@ Model evaluation and review — quality signals for production LLM systems.
 
 | Project | Stack | What It Does |
 |---|---|---|
-| [**Gym AI Chatbot**](https://github.com/ahmedgeeter/fullstack-gym-rag-chatbot) | Next.js, Groq, RAG, Prisma | Full-stack e-commerce storefront with a RAG chatbot that answers product queries in real time |
-| [**Production RAG Pipeline**](https://github.com/ahmedgeeter/ai-rag-chatbot) | LangChain, Pinecone, FastAPI | Safety-aware retrieval pipeline with re-ranking and source citations |
-| [**Fraud Detection API**](https://github.com/ahmedgeeter/credit-card-fraud-api) | Python, FastAPI, Docker | Dockerized ML API with production-ready structure |
-| [**LLM Safety Guardrails**](https://github.com/ahmedgeeter/llm-safety-guardrail-api) | Python, OpenAI API | Hallucination detection and guardrail enforcement layer |
+| [**Gym AI Chatbot**](https://github.com/ahmedgeeter/fullstack-gym-rag-chatbot) | Next.js · Groq · RAG · Prisma | Full-stack storefront with a RAG chatbot that answers product queries in real time |
+| [**Production RAG Pipeline**](https://github.com/ahmedgeeter/ai-rag-chatbot) | LangChain · Pinecone · FastAPI | Safety-aware retrieval pipeline with re-ranking and source citations |
+| [**Fraud Detection API**](https://github.com/ahmedgeeter/credit-card-fraud-api) | Python · FastAPI · Docker | Dockerized ML API with production-ready architecture and 0.95+ ROC-AUC |
+| [**LLM Safety Guardrails**](https://github.com/ahmedgeeter/llm-safety-guardrail-api) | Python · OpenAI API | Hallucination detection and guardrail enforcement layer |
 
 ---
 
@@ -105,17 +136,25 @@ Model evaluation and review — quality signals for production LLM systems.
 
 </div>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
 ---
 
 ## GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=tokyonight&title_color=d946ef&icon_color=7C3AED&text_color=ffffff&bg_color=0d1117&hide_border=false&border_color=4F46E5&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedgeeter&layout=compact&theme=tokyonight&title_color=d946ef&text_color=ffffff&bg_color=0d1117&hide_border=false&border_color=4F46E5&langs_count=8" />
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmedgeeter&theme=tokyonight" />
+
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=ahmedgeeter&theme=tokyonight&fire=d946ef&sideNums=ffffff&sideLabels=d946ef&stroke=4F46E5&background=0d1117&border=4F46E5&ring=7C3AED&currStreakLabel=d946ef" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ahmedgeeter&theme=tokyonight" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ahmedgeeter&theme=tokyonight" />
+</div>
+
+<div align="center">
+  <img width="70%" src="https://github-readme-streak-stats-eight.vercel.app?user=ahmedgeeter&theme=tokyonight&fire=d946ef&ring=7C3AED&sideNums=ffffff&sideLabels=d946ef&stroke=4F46E5&background=0d1117&border=4F46E5&currStreakLabel=d946ef" />
 </div>
 
 <div align="center">
@@ -126,10 +165,11 @@ Model evaluation and review — quality signals for production LLM systems.
 
 <div align="center">
 
-*If you're building an AI product and need backend-disciplined engineering behind it — [let's talk.](mailto:ahmedekramy303@gmail.com)*
+*If you're building an AI product and need reliable engineering behind it — [let's talk.](mailto:ahmedekramy303@gmail.com)*
 
-**Ahmed Gaiter · AI Engineer · Egypt · [ahmed-ai-dev](https://linkedin.com/in/ahmed-ai-dev) · [ahmedgeeter](https://github.com/ahmedgeeter)**
+**Ahmed Gaiter · AI Engineer · Egypt**  
+[ahmed-ai-dev](https://linkedin.com/in/ahmed-ai-dev) · [ahmedgeeter](https://github.com/ahmedgeeter) · [portfolio](https://portfolio-psi-wheat-z32y09qz1f.vercel.app/)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:d946ef,50:7C3AED,100:0d1117&height=120&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:d946ef,50:7C3AED,100:0d1117&height=130&section=footer&animation=twinkling" />
 
 </div>
