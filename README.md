@@ -1,92 +1,135 @@
 <div align="center">
 
-<!-- Animated Penguin GIF -->
-<img width="220" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnA1dGVleGRxNGZhOXppaGNlNTU0b3BqYXE3cnYwd2R6YXFldXJxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/lP8xu5t2DLGG045H8F/giphy.gif" alt="Penguin Coding" style="border-radius: 20px;" />
+<img width="180" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnA1dGVleGRxNGZhOXppaGNlNTU0b3BqYXE3cnYwd2R6YXFldXJxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/lP8xu5t2DLGG045H8F/giphy.gif" alt="Ahmed Gaiter - AI Engineer" />
 
-<!-- Header Wave with animation -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:d946ef&height=160&section=header&text=Ahmed%20Ekramy%20Gaiter&fontSize=48&fontColor=ffffff&animation=twinkling&desc=AI%20Software%20Engineer%20%7C%20Agentic%20RAG%20Specialist&descAlignY=68&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:4F46E5,100:d946ef&height=220&section=header&text=Ahmed%20Gaiter&fontSize=54&fontColor=ffffff&animation=twinkling&desc=AI%20Engineer%20%7C%20RAG%20%26%20LLM%20Systems%20%7C%20Backend%20Specialist%20%7C%20Egypt&descAlignY=68&descSize=17" />
 
-<!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=800&color=d946ef&center=true&vCenter=true&width=900&lines=🤖+Building+Agentic+RAG+Systems;⚡+Architecting+Scalable+AI+Backends;🧠+Expert+in+LLM+Orchestration+%26+LangGraph;☕+Coffee+In+--➤+Scalable+Code+Out;🚀+Turning+Research+into+Production" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=d946ef&center=true&vCenter=true&width=1000&lines=Ahmed+Gaiter+%E2%80%94+AI+Engineer+based+in+Egypt;Production-Ready+RAG+%26+LLM+Systems+Developer;FastAPI+%7C+LangChain+%7C+LangGraph+%7C+Pinecone+%7C+Docker;Building+AI+that+works+outside+the+demo." alt="Ahmed Gaiter AI Engineer" />
 
-<!-- Animated divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- Social badges -->
 <p align="center">
   <a href="https://www.linkedin.com/in/ahmed-ai-dev/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Ahmed%20Gaiter-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://portfolio-psi-wheat-z32y09qz1f.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-View%20My%20Work-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="mailto:ahmedekramy303@gmail.com">
     <img src="https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://wa.me/201069334256">
-    <img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <img src="https://img.shields.io/badge/WhatsApp-Let's%20Talk-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </p>
 
-<!-- Profile views counter animated -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ahmedgeeter&label=Profile+Views&color=7C3AED&style=for-the-badge" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/ahmedgeeter?label=Followers&style=for-the-badge&color=d946ef&labelColor=0d1117" />
+  <img src="https://komarev.com/ghpvc/?username=ahmedgeeter&label=Profile+Views&color=7C3AED&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open%20To%20Work-Remote%20%7C%20Hybrid%20%7C%20Contract-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white" />
 </p>
 
----
-
-### 🚀 Summary: Bringing Intelligence to Scale
-
-I am an **AI Software Engineer** specializing in bridging the gap between **Cutting-edge Research** and **Production-ready Software**.
-
-- **🔍 Core Expertise:** Generative AI, Agentic RAG, LangGraph, LLM Ops, Backend Architecture.
-- **🛠 Approach:** Focused on **Reliability**, **Explainability**, and **Production-grade Deployment**.
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+</div>
 
 ---
 
-### 📊 GitHub Stats & Activity (Real-time)
+<!-- SEO: Ahmed Gaiter, Ahmed Ekramy Gaiter, AI Engineer Egypt, RAG Developer, LLM Engineer, LangChain Developer, LangGraph, FastAPI Python, Agentic AI, Production AI Systems -->
 
-<p align="center">
+## Who I Am
+
+I'm **Ahmed Gaiter**, an AI Engineer from Egypt focused on one thing: **building AI systems that work in production, not just in demos.**
+
+My background is in backend engineering, and that shapes how I approach every AI project — with a bias for reliability, clean architecture, and systems that don't break when real users show up. I've worked across RAG pipelines, LLM integrations, multi-agent workflows, and safety evaluation — always with production deployment as the end goal.
+
+Currently available for **freelance, contract, and full-time remote opportunities** in AI engineering.
+
+---
+
+## What I Actually Build
+
+Most AI engineers can run a Jupyter notebook. I build the thing that runs in production.
+
+### Retrieval-Augmented Generation (RAG)
+Not just a basic vector search. I architect full RAG pipelines with smart chunking, embedding strategies, query rewriting, re-ranking layers, and source-grounded answers. I've worked with both **Pinecone** and **ChromaDB**, and I know when to use each.
+
+### LLM-Powered Backend APIs
+I build **FastAPI** services that wrap LLM logic with proper validation, error handling, async design, and clean separation of concerns. These are APIs you can actually put behind a product.
+
+### AI Agents & Orchestration
+Multi-step agent systems using **LangGraph** for stateful orchestration. Tool use, memory management, conditional branching — I think in workflows, not just prompts.
+
+### Safety & Evaluation
+I've done RLHF work at **Outlier** and AI evaluation at **Alignerr**. I think about hallucination detection, guardrails, and evaluation loops as core parts of the product — not optional extras.
+
+---
+
+## Experience
+
+**Freelance AI Developer** *(Jan 2025 – Present)*  
+Production-grade RAG & LLM workflows for clients. End-to-end: architecture, API design, deployment, iteration.
+
+**AI Backend Engineer @ Springer Capital**  
+Built Python automation scripts, FastAPI services with AI model integrations, and handled Docker & CI/CD workflows for scalable internal tools.
+
+**AI Model Alignment Specialist @ Outlier**  
+Reviewed Python and SQL code generated by LLMs. Red teaming, hallucination detection, and prompt engineering for safety at scale.
+
+**AI Reviewer @ Alignerr**  
+Model evaluation and review — quality signals for production LLM systems.
+
+---
+
+## Featured Projects
+
+| Project | Stack | What It Does |
+|---|---|---|
+| [**Gym AI Chatbot**](https://github.com/ahmedgeeter/fullstack-gym-rag-chatbot) | Next.js, Groq, RAG, Prisma | Full-stack e-commerce storefront with a RAG chatbot that answers product queries in real time |
+| [**Production RAG Pipeline**](https://github.com/ahmedgeeter/ai-rag-chatbot) | LangChain, Pinecone, FastAPI | Safety-aware retrieval pipeline with re-ranking and source citations |
+| [**Fraud Detection API**](https://github.com/ahmedgeeter/credit-card-fraud-api) | Python, FastAPI, Docker | Dockerized ML API with production-ready structure |
+| [**LLM Safety Guardrails**](https://github.com/ahmedgeeter/llm-safety-guardrail-api) | Python, OpenAI API | Hallucination detection and guardrail enforcement layer |
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,docker,git,linux,aws,nextjs&theme=dark" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-7C3AED?style=for-the-badge&logo=graphql&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Groq-111111?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Pinecone-0C8CE9?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/ChromaDB-5A31F4?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" />
+
+</div>
+
+---
+
+## GitHub Analytics
+
+<div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=tokyonight&title_color=d946ef&icon_color=7C3AED&text_color=ffffff&bg_color=0d1117&hide_border=false&border_color=4F46E5&count_private=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedgeeter&layout=compact&theme=tokyonight&title_color=d946ef&text_color=ffffff&bg_color=0d1117&hide_border=false&border_color=4F46E5&langs_count=8" />
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="https://streak-stats.demolab.com/?user=ahmedgeeter&theme=tokyonight&fire=d946ef&sideNums=ffffff&sideLabels=d946ef&stroke=4F46E5&background=0d1117&border=4F46E5&ring=7C3AED&currStreakLabel=d946ef" />
-</p>
+</div>
 
-<!-- Activity Graph -->
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ahmedgeeter&theme=tokyo-night&bg_color=0d1117&color=d946ef&line=7C3AED&point=ffffff&area=true&hide_border=false&border_color=4F46E5" />
-</p>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ahmedgeeter&theme=tokyo-night&bg_color=0d1117&color=d946ef&line=7C3AED&point=ffffff&area=true&hide_border=false" />
+</div>
 
 ---
 
-### 🛠 Tech Stack
+<div align="center">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker,aws,git,linux,nextjs&theme=dark" />
-</p>
+*If you're building an AI product and need backend-disciplined engineering behind it — [let's talk.](mailto:ahmedekramy303@gmail.com)*
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LangGraph-Expert-7C3AED?style=for-the-badge&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-Builder-d946ef?style=for-the-badge&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-Integrator-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-Specialist-4F46E5?style=for-the-badge&logo=buffer&logoColor=white" />
-</p>
+**Ahmed Gaiter · AI Engineer · Egypt · [ahmed-ai-dev](https://linkedin.com/in/ahmed-ai-dev) · [ahmedgeeter](https://github.com/ahmedgeeter)**
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
----
-
-### 🏆 Featured Projects
-
-- **🌌 [Explainable Agentic RAG Workspace](https://github.com/ahmedgeeter/ai-rag-chatbot):** Self-healing RAG with LangGraph and source citations.
-- **🛡️ [Enterprise Fraud Detection API](https://github.com/ahmedgeeter/credit-card-fraud-api):** Production-grade ML deployment with Docker.
-
-<!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:d946ef,50:7C3AED,100:4F46E5&height=100&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:d946ef,50:7C3AED,100:0d1117&height=120&section=footer&animation=twinkling" />
 
 </div>
