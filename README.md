@@ -1,10 +1,8 @@
 <div align="center">
 
-<!-- Header Animation -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:121212,50:4F46E5,100:7C3AED&height=250&section=header&text=Ahmed%20Ekramy%20Gaiter&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=AI%20Software%20Engineer%20|%20Agentic%20Workflows%20|%20Scalable%20AI%20Backends&descAlignY=60&descAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,50:8b5cf6,100:d946ef&height=300&section=header&text=Ahmed%20Ekramy%20Gaiter&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=AI%20Software%20Engineer%20|%20Agentic%20Workflows%20|%20Scalable%20AI%20Backends&descAlignY=60&descAlign=50" />
 
-<!-- Dynamic Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&width=900&lines=Building+Agentic+RAG+Systems;Architecting+Scalable+AI+Backends;Expert+in+LLM+Orchestration+%26+LangGraph;Crafting+Production-Ready+AI+Solutions" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=d946ef&center=true&vCenter=true&width=1000&lines=Building+Agentic+RAG+Systems;Architecting+Scalable+AI+Backends;Expert+in+LLM+Orchestration+%26+LangGraph;Crafting+Production-Ready+AI+Solutions" alt="Typing SVG" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ahmed-ai-dev/">
@@ -81,10 +79,13 @@ I am an **AI Software Engineer** specializing in bridging the gap between **Cutt
 
 ### 📊 GitHub Stats & Activity
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedgeeter&layout=compact&langs_count=8&theme=tokyonight" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=nord&include_all_commits=true&count_private=true" alt="Ahmed Ekramy Gaiter's GitHub stats" />
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedgeeter&layout=compact&langs_count=8&theme=nord" alt="Ahmed Ekramy Gaiter's top languages" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmedgeeter&theme=nord" alt="Ahmed Ekramy Gaiter's commit streak" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:121212&height=100&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:d946ef,100:3b82f6&height=100&section=footer" />
 
 </div>
