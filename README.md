@@ -4,7 +4,7 @@
      LangChain Developer, LangGraph Expert, FastAPI Python AI, Agentic AI Engineer, Production RAG Systems,
      Pinecone ChromaDB Engineer, AI Backend Specialist Egypt, ahmedgeeter, ahmed-ai-dev -->
 
-<img width="200" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Ahmed Gaiter - AI Engineer" />
+<img width="220" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" alt="Ahmed Gaiter - AI Engineer" />
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:4F46E5,100:d946ef&height=220&section=header&text=Ahmed%20Gaiter&fontSize=54&fontColor=ffffff&animation=twinkling&desc=AI%20Engineer%20%7C%20RAG%20%26%20LLM%20Systems%20%7C%20Backend%20Specialist%20%7C%20Egypt&descAlignY=68&descSize=17" />
 
