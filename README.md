@@ -1,20 +1,17 @@
 <div align="center">
 
-<!-- High-Tech Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,70:4F46E5,100:7C3AED&height=280&section=header&text=Ahmed%20Gaiter&fontSize=50&animation=twinkling&fontAlignY=35&desc=AI%20Engineer%20|%20RAG%20%26%20LLM%20Systems%20|%20Backend%20Specialist&descAlignY=60&descAlign=50" />
+<img width="300" src="https://media.tenor.com/aTx3zLr2HjUAAAAi/penguin-pengu.gif" alt="Penguin Coding" style="border-radius: 20px; margin-bottom: 10px;" />
 
-<!-- Animated Tech Lead Mood -->
-<img width="300" src="https://media.tenor.com/aTx3zLr2HjUAAAAi/penguin-pengu.gif" alt="Engineering Discipline" style="border-radius: 20px; margin: 20px 0;" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:d946ef&height=150&section=header&text=Ahmed%20Ekramy%20Gaiter&fontSize=45&fontColor=ffffff&animation=fadeIn&desc=AI%20Software%20Engineer%20|%20Agentic%20RAG%20Specialist&descAlignY=65" />
 
-<!-- Professional Value Proposition -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&width=1000&lines=Architecting+AI+Systems+that+Actually+Survive+Production;Focusing+on+Reliability+Maintainability+and+Safety;Expert+in+Agentic+Workflows+%26+Production-Grade+Backends" alt="Value Prop" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=d946ef&center=true&vCenter=true&width=900&lines=Building+Agentic+RAG+Systems;Architecting+Scalable+AI+Backends;Expert+in+LLM+Orchestration+%26+LangGraph;Coffee+In+-->+Scalable+Code+Out" alt="Typing SVG" />
 
 <p align="center">
-  <a href="mailto:ahmedekramy303@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
   <a href="https://www.linkedin.com/in/ahmed-ai-dev/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:ahmedekramy303@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://wa.me/201069334256">
     <img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -23,57 +20,37 @@
 
 ---
 
-### 🛠 The Engineering Philosophy
-> "I don't just build AI demos; I architect production-ready systems with a backend discipline."
+### 🚀 Summary: Bringing Intelligence to Scale
+I am an **AI Software Engineer** specializing in bridging the gap between **Cutting-edge Research** and **Production-ready Software**. 
 
-I bridge the gap between cutting-edge LLM capabilities and stable software architecture. My approach is centered on four pillars: **Reliability, Maintainability, Safety, and Performance.**
-
----
-
-### 🧬 Technical Ecosystem
-
-| **AI & Orchestration** | **Backend & Infrastructure** | **Vector & Evaluation** |
-| :--- | :--- | :--- |
-| LangChain / LangGraph | Python (FastAPI / Pydantic) | Pinecone / ChromaDB |
-| RAG Systems Design | Docker & Containerization | RLHF & Model Alignment |
-| Agentic Workflows | PostgreSQL / SQL | Hallucination Detection |
-| Prompt Engineering | AWS Cloud Foundations | Safety Guardrails |
+- **🔍 Core Expertise:** Generative AI, Agentic RAG, LangGraph, LLM Ops, Backend Architecture.
+- **🛠 Approach:** Focused on **Reliability**, **Explainability**, and **Production-grade Deployment**.
 
 ---
 
-### 🚀 Selected Engineering Work
-
-#### [Coremont Premium Gym & AI Chatbot](https://github.com/ahmedgeeter/Fullstack-Gym-RAG-Chatbot)
-*   **Architected** a high-end storefront with custom 3D fluid physics.
-*   **Integrated** a smart RAG agent using serverless edge functions to handle real-time product queries.
-
-#### [Production RAG Pipeline](https://github.com/ahmedgeeter/ai-rag-chatbot)
-*   **Built** a safety-aware retrieval system using **LangGraph** and **Pinecone**.
-*   **Implemented** advanced chunking strategies and re-ranking layers for enterprise-grade precision.
-
-#### [LLM Safety Guardrails](https://github.com/ahmedgeeter/LLM-Safety-Guardrail-API)
-*   **Engineered** a framework for detecting hallucinations and enforcing safety protocols in production environments.
-
----
-
-### 📊 Engineering Metrics & Activity
+### 📊 GitHub Stats & Activity (Real-time)
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedgeeter&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Langs" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=tokyonight&title_color=7C3AED&icon_color=7C3AED&text_color=ffffff&bg_color=0d1117&hide_border=false&border_color=4F46E5" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedgeeter&layout=compact&theme=tokyonight&title_color=7C3AED&text_color=ffffff&bg_color=0d1117&hide_border=false&border_color=4F46E5" />
 </p>
 
 <p align="center">
-  <!-- Fixed GitHub Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmedgeeter&theme=tokyonight&hide_border=true&background=0D1117&fire=7C3AED&ring=4F46E5" alt="Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmedgeeter&theme=tokyonight&fire=d946ef&sideNums=ffffff&sideLabels=ffffff&stroke=4F46E5&background=0d1117&border=4F46E5" />
 </p>
 
 ---
 
-### ⚡ Professional Signals
-*   **Ex-Springer Capital:** Built scalable AI APIs and automation workflows.
-*   **Ex-Outlier:** Specialized in LLM Code Generation Quality & RLHF.
-*   **Certifications:** Agentic AI Engineering, AWS Cloud Foundations.
+### 🛠 Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker,aws,git,linux,nextjs&theme=dark" />
+</p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:000000&height=100&section=footer" />
+---
+
+### 🏆 Featured Projects
+- **🌌 [Explainable Agentic RAG Workspace](https://github.com/ahmedgeeter/ai-rag-chatbot):** Self-healing RAG with LangGraph and source citations.
+- **🛡️ [Enterprise Fraud Detection API](https://github.com/ahmedgeeter/credit-card-fraud-api):** Production-grade ML deployment with Docker.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:d946ef,100:4F46E5&height=80&section=footer" />
 
 </div>
