@@ -48,7 +48,7 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
   <thead>
     <tr>
       <th width="27%">System / Project</th>
-      <th width="37%">Architecture & Engineering Highlights (من الترس ⚙️)</th>
+      <th width="37%">Architecture & Engineering Highlights</th>
       <th width="20%">Tech Stack</th>
       <th width="16%">Live Links</th>
     </tr>
