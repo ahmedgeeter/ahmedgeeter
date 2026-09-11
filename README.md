@@ -4,10 +4,11 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=9333ea&center=true&vCenter=true&width=900&lines=Ahmed+Gaiter+%7C+AI+Software+Engineer;Production+RAG+%26+Multi-Agent+Workflows;FastAPI+Backends+%26+Cloud+Microservices;Python+%E2%80%A2+LangGraph+%E2%80%A2+Redis+%E2%80%A2+Docker+%E2%80%A2+AWS" alt="Ahmed Gaiter Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=9333ea&center=true&vCenter=true&width=900&lines=Ahmed+Gaiter+%7C+AI+Software+Engineer;AI+Engineer+%26+Backend+Developer;Production+RAG+%26+Multi-Agent+Workflows;FastAPI+Backends+%26+Cloud+Microservices;Python+%E2%80%A2+LangGraph+%E2%80%A2+Redis+%E2%80%A2+Docker+%E2%80%A2+AWS" alt="Ahmed Gaiter Typing" />
 
 <p align="center">
-  <strong>Crafting production-ready AI applications and high-performance backend systems that solve real-world problems.</strong>
+  <strong>AI Software Engineer & Backend Developer</strong><br/>
+  <span>Building resilient, production-ready AI systems, agentic workflows & high-throughput APIs</span>
 </p>
 
 <p align="center">
@@ -70,7 +71,7 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
       </td>
       <td>
         <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>📂 GitHub Repo</strong></a><br/>
-        <a href="https://ai-interview-automation.onrender.com/docs"><strong>⚡ Live Swagger API</strong></a>
+        <a href="https://ai-interview-automation.onrender.com/docs"><strong>🌐 Live Demo</strong></a>
       </td>
     </tr>
     <tr>
