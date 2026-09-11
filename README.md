@@ -33,23 +33,23 @@
 
 I am a **Senior AI Software Engineer and Backend Architect** dedicated to building deterministic, high-throughput systems powered by Large Language Models. 
 
-Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineering the **underlying infrastructure, low-latency streaming APIs, and multi-layered safety guardrails** required to run AI reliably at scale. My core domain revolves around:
-- **Agentic Multi-Step Workflows** with persistent memory, cyclic graph execution, and fault-tolerant tool invocation ([LangGraph](https://github.com/langchain-ai/langgraph)).
-- **Production Retrieval-Augmented Generation (RAG)** featuring semantic reranking, hybrid lexical-vector search, and context grounding.
-- **Resilient Cloud & Microservices Architectures** built on **FastAPI**, **Redis**, **Docker**, **Kubernetes (EKS)**, and automated with **Terraform**.
-- **AI Safety & Alignment** including real-time prompt injection mitigation, PII anonymization, and RLHF evaluation.
+Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineering the **underlying infrastructure, low-latency streaming APIs, and multi-layered safety guardrails** required to run AI reliably at scale:
+- **Agentic Multi-Step Workflows:** Stateful, tool-calling agents using **LangGraph** with persistent memory, cyclic graph execution, and human-in-the-loop validation.
+- **Production Retrieval-Augmented Generation (RAG):** Hybrid lexical-vector search, semantic reranking, exact citation attribution, and sub-second cold starts.
+- **Resilient Cloud & Microservices Architectures:** Built on **FastAPI**, **Redis**, **Docker**, **Kubernetes (EKS)**, and provisioned with **Terraform**.
+- **AI Safety & Adversarial Defense:** Real-time prompt injection mitigation, PII anonymization, and RLHF evaluation to prevent model hallucinations and data exfiltration.
 
 ---
 
-### 🚀 Featured Production Projects
+### 🚀 Flagship Production Systems (Live Demos & Source Code)
 
 <table>
   <thead>
     <tr>
       <th width="28%">System / Project</th>
-      <th width="32%">Key Engineering Architecture</th>
-      <th width="25%">Tech Stack</th>
-      <th width="15%">Links</th>
+      <th width="34%">Architecture & Engineering Highlights</th>
+      <th width="23%">Tech Stack</th>
+      <th width="15%">Live Links</th>
     </tr>
   </thead>
   <tbody>
@@ -59,9 +59,9 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
         <em>Autonomous AI Technical Interviewer</em>
       </td>
       <td>
-        • Real-time voice-to-voice interview streaming with sub-300ms WebSocket latency.<br/>
+        • Real-time voice-to-voice streaming with sub-300ms WebSocket latency.<br/>
         • Multi-agent evaluation graph assessing candidate responses against dynamic rubrics.<br/>
-        • Multi-tier LLM fallback routing ensuring 99.9% uptime during provider rate limits.
+        • Multi-tier LLM fallback routing (Groq Qwen-27b + Gemini Flash) ensuring 99.9% uptime.
       </td>
       <td>
         <code>FastAPI</code> <code>LangGraph</code><br/>
@@ -69,27 +69,8 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
         <code>Next.js</code> <code>TypeScript</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>📂 Code & Docs</strong></a><br/>
-        <a href="https://www.ahmedgaiter.site/"><strong>🌐 Live Demo</strong></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>🚨 Autonomous SRE Swarm</strong><br/>
-        <em>Self-Healing Incident Remediation</em>
-      </td>
-      <td>
-        • Multi-agent swarm automating log anomaly detection and root-cause analysis (RCA).<br/>
-        • Automated canary rollback and self-healing infrastructure remediation pipelines.<br/>
-        • Human-in-the-loop review nodes for critical infrastructure state changes.
-      </td>
-      <td>
-        <code>Python</code> <code>LangGraph</code><br/>
-        <code>Kubernetes</code> <code>AIOps</code><br/>
-        <code>Observability</code> <code>Docker</code>
-      </td>
-      <td>
-        <a href="https://github.com/ahmedgeeter/Autonomous-SRE-Incident-Remediation-Swarm"><strong>📂 Code & Docs</strong></a>
+        <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>📂 GitHub Repo</strong></a><br/>
+        <a href="https://ai-interview-automation.onrender.com/docs"><strong>⚡ Live Swagger API</strong></a>
       </td>
     </tr>
     <tr>
@@ -100,7 +81,7 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
       <td>
         • 5-layer prompt injection defense framework passing strict penetration tests.<br/>
         • Real-time parcel tracking via RAG over distributed shipment databases.<br/>
-        • Automated PII data masking to ensure strict GDPR/compliance standards.
+        • Automated PII data masking to ensure strict GDPR and data compliance standards.
       </td>
       <td>
         <code>FastAPI</code> <code>LangChain</code><br/>
@@ -108,7 +89,8 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
         <code>Redis</code> <code>Docker</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/shiphny-ai-support"><strong>📂 Code & Docs</strong></a>
+        <a href="https://github.com/ahmedgeeter/shiphny-ai-support"><strong>📂 GitHub Repo</strong></a><br/>
+        <a href="https://shiphny-ai-support.vercel.app/"><strong>🌐 Live Demo</strong></a>
       </td>
     </tr>
     <tr>
@@ -117,7 +99,7 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
         <em>Multimodal Industrial Document & Audio Inspector</em>
       </td>
       <td>
-        • Multimodal OCR processing engineering schematics & invoices via Llama 3.2 Vision.<br/>
+        • Multimodal OCR processing complex engineering schematics & invoices via Llama 3.2 Vision.<br/>
         • Whisper integration for automated voice memo transcription and compliance cross-checks.<br/>
         • Deterministic Pydantic validation for structured data extraction into ERP systems.
       </td>
@@ -127,7 +109,67 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
         <code>Python</code> <code>OCR</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/ai-auditor-ocr-voice"><strong>📂 Code & Docs</strong></a>
+        <a href="https://github.com/ahmedgeeter/ai-auditor-ocr-voice"><strong>📂 GitHub Repo</strong></a><br/>
+        <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>🌐 Live Demo</strong></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>🚨 Autonomous SRE Swarm</strong><br/>
+        <em>Self-Healing Incident Remediation</em>
+      </td>
+      <td>
+        • Multi-agent swarm automating log anomaly detection and root-cause analysis (RCA).<br/>
+        • Automated canary rollback and self-healing cloud infrastructure remediation pipelines.<br/>
+        • Human-in-the-loop review nodes for critical infrastructure state modifications.
+      </td>
+      <td>
+        <code>Python</code> <code>LangGraph</code><br/>
+        <code>Kubernetes</code> <code>AIOps</code><br/>
+        <code>Observability</code> <code>Docker</code>
+      </td>
+      <td>
+        <a href="https://github.com/ahmedgeeter/Autonomous-SRE-Incident-Remediation-Swarm"><strong>📂 GitHub Repo</strong></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>🔍 ReqLens Engine</strong><br/>
+        <em>Software Requirements & Clarity Analyzer</em>
+      </td>
+      <td>
+        • Automated ambiguity detection in software requirements and user stories.<br/>
+        • Semantic requirement clustering and interactive specification generation.<br/>
+        • Real-time analysis interface deployed for non-technical stakeholders.
+      </td>
+      <td>
+        <code>Python</code> <code>NLP</code><br/>
+        <code>Streamlit</code> <code>FastAPI</code><br/>
+        <code>Transformers</code>
+      </td>
+      <td>
+        <a href="https://github.com/ahmedgeeter/ReqLens"><strong>📂 GitHub Repo</strong></a><br/>
+        <a href="https://reqlens.streamlit.app/"><strong>🌐 Live Demo</strong></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>🏋️ Gym & Fitness RAG Chatbot</strong><br/>
+        <em>Full-Stack Intelligent Fitness Advisory</em>
+      </td>
+      <td>
+        • Context-grounded RAG assistant providing personalized workout & nutritional guidance.<br/>
+        • Vector retrieval over verified fitness literature with conversational history.<br/>
+        • Full-stack responsive web interface with Tailwind CSS styling and Next.js.
+      </td>
+      <td>
+        <code>Next.js</code> <code>TypeScript</code><br/>
+        <code>FastAPI</code> <code>RAG</code><br/>
+        <code>PostgreSQL</code>
+      </td>
+      <td>
+        <a href="https://github.com/ahmedgeeter/fullstack-gym-rag-chatbot"><strong>📂 GitHub Repo</strong></a><br/>
+        <a href="https://fullstack-gym-rag-chatbot.vercel.app/"><strong>🌐 Live Demo</strong></a>
       </td>
     </tr>
     <tr>
@@ -146,7 +188,27 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
         <code>Supabase</code> <code>Vercel</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/Fully-functional-Telegram-RAG-Agent"><strong>📂 Code & Docs</strong></a>
+        <a href="https://github.com/ahmedgeeter/Fully-functional-Telegram-RAG-Agent"><strong>📂 GitHub Repo</strong></a><br/>
+        <a href="https://t.me/UnlockProBot"><strong>🤖 Live Telegram Bot</strong></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>🛡️ AI Safety & Guardrail API</strong><br/>
+        <em>High-Performance LLM Firewall</em>
+      </td>
+      <td>
+        • High-throughput microservice for prompt injection mitigation and jailbreak detection.<br/>
+        • Real-time toxicity scoring and automated PII anonymization before upstream LLM calls.<br/>
+        • Sub-millisecond latency overhead designed for enterprise API gateways.
+      </td>
+      <td>
+        <code>FastAPI</code> <code>Pydantic</code><br/>
+        <code>Cybersecurity</code> <code>Docker</code><br/>
+        <code>LLM Security</code>
+      </td>
+      <td>
+        <a href="https://github.com/ahmedgeeter/LLM-Safety-Guardrail-API"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
   </tbody>
@@ -154,7 +216,7 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
 
 ---
 
-### 🛡️ System Design & Engineering Philosophy
+### 🛡️ System Design & Architecture Principles
 
 ```mermaid
 graph LR
@@ -163,12 +225,12 @@ graph LR
     Guardrail --> Router[Semantic LLM Router / LiteLLM]
     Router --> Agents[LangGraph Multi-Agent Orchestrator]
     Agents --> VectorDB[(Vector DB / Hybrid RAG)]
-    Agents --> Cache[(Redis State & Cache)]
-    Agents --> Cloud[AWS Infrastructure / K8s]
+    Agents --> Cache[(Redis State & Session Cache)]
+    Agents --> Cloud[AWS Infrastructure / Kubernetes]
 ```
 
-- **Deterministic Execution:** LLMs are non-deterministic; the software wrapping them cannot be. Every output is strictly validated via Pydantic schemas and circuit breakers.
-- **Zero-Downtime Reliability:** Multi-tier provider fallbacks (Anthropic, OpenAI, Open-Source vLLM) ensure zero service disruption during provider rate limits.
+- **Deterministic Execution:** LLMs are non-deterministic; the software wrapping them cannot be. Every output is strictly validated via Pydantic schemas, retry logic, and circuit breakers.
+- **Zero-Downtime Reliability:** Multi-tier provider fallbacks (Anthropic, OpenAI, Open-Source vLLM) ensure zero service disruption during provider rate limits or API degradations.
 - **Security-First Architecture:** Multi-layer input sanitization, PII masking, and prompt injection filters protect corporate knowledge bases from exfiltration.
 
 ---
@@ -179,8 +241,8 @@ graph LR
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **AI & Agentic Systems** | `LangGraph` • `LangChain` • `LlamaIndex` • `LiteLLM` • `FAISS` • `ChromaDB` • `Whisper` • `Llama Vision` |
-| **Backend & Microservices** | `Python (AsyncIO)` • `FastAPI` • `WebSockets` • `Celery` • `Pydantic` • `RESTful APIs` |
+| **AI & Agentic Systems** | `LangGraph` • `LangChain` • `LlamaIndex` • `LiteLLM` • `FAISS` • `ChromaDB` • `Whisper` • `Llama 3.2 Vision` |
+| **Backend & Microservices** | `Python (AsyncIO)` • `FastAPI` • `WebSockets` • `Celery` • `Pydantic` • `RESTful Architecture` |
 | **Databases & Caching** | `PostgreSQL` • `Supabase` • `Redis (Caching, Pub/Sub, Queues)` • `SQLite` |
 | **Cloud & DevOps** | `Docker` • `Kubernetes (EKS)` • `Terraform (IaC)` • `AWS (EC2, S3, IAM)` • `GitHub Actions CI/CD` • `Linux` |
 | **Frontend & UI** | `TypeScript` • `Next.js` • `React` • `Tailwind CSS` |
@@ -199,22 +261,22 @@ graph LR
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=ahmedgeeter&show_icons=true&theme=tokyonight&hide_border=false&border_color=7c3aed&bg_color=0d1117&title_color=a855f7&text_color=e2e8f0" alt="Ahmed's GitHub Stats" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ahmedgeeter&theme=github_dark" alt="Ahmed's GitHub Stats" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedgeeter&layout=compact&theme=tokyonight&hide_border=false&border_color=7c3aed&bg_color=0d1117&title_color=a855f7&text_color=e2e8f0" alt="Top Languages" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ahmedgeeter&theme=github_dark" alt="Top Languages" />
       </td>
     </tr>
   </table>
   
   <br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmedgeeter&theme=tokyonight&hide_border=false&border_color=7c3aed&background=0d1117&ring=7c3aed&fire=f59e0b&currStreakNum=e2e8f0" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=ahmedgeeter&theme=tokyonight&hide_border=false&border_color=7c3aed&background=0d1117&ring=7c3aed&fire=f59e0b&currStreakNum=e2e8f0" alt="GitHub Streak" />
 </div>
 
 ---
 
-### 💼 Work Experience Highlights
+### 💼 Professional Experience Highlights
 
 - **Senior AI Software Engineer | B2B Solutions Consultant** *(Jan 2024 – Present)*
   - Engineered low-latency voice and text RAG pipelines handling thousands of daily interactions.
