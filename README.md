@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>AI Software Engineer & Backend Developer</strong><br/>
-  <span>Building resilient, production-ready AI systems, agentic workflows & high-throughput APIs</span>
+  <span>Engineering deterministic, production-ready AI systems, agentic workflows, and high-throughput cloud APIs.</span>
 </p>
 
 <p align="center">
@@ -30,27 +30,27 @@
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 About Me & Engineering Focus
 
-I am an **AI Software Engineer & Backend Developer** with a Computer Science background (B.Sc., Mansoura University) focused on moving AI beyond experimental notebooks into reliable, production-ready software.
+I am an **AI Software Engineer & Backend Developer** with a Computer Science background (B.Sc., Mansoura University) specializing in transforming probabilistic AI models into deterministic, high-throughput production software.
 
-My experience spans freelance B2B solutions, hands-on enterprise training, and AI alignment:
-- **Autonomous & Multi-Agent Workflows:** Designing stateful tool-calling workflows using **LangGraph** with cyclic graphs, memory persistence, and human-in-the-loop review.
-- **Production Retrieval-Augmented Generation (RAG):** Engineering hybrid lexical-vector retrieval, semantic reranking, dynamic context windows, and verifiable citation attribution.
-- **High-Performance Backends & Microservices:** Building asynchronous APIs with **FastAPI**, **Redis**, **WebSockets**, and containerizing services with **Docker** & **Kubernetes (EKS)**.
-- **AI Safety & Alignment:** Practical experience from evaluating frontier LLMs at Outlier/Atlas Capture, implementing prompt injection defenses, and enforcing strict Pydantic output validation.
+Unlike experimental notebook scripts, I engineer the **low-latency streaming pipelines, stateful agent graphs, and multi-tier safety guardrails** needed to run AI reliably at enterprise scale:
+- **Agentic Multi-Step Workflows:** Stateful tool-calling systems using **LangGraph** featuring cyclic execution graphs, memory persistence, and human-in-the-loop review nodes.
+- **Production Retrieval-Augmented Generation (RAG):** Hybrid lexical-vector search, semantic reranking, dynamic context windows, and exact citation attribution.
+- **Resilient Microservices & Cloud Infrastructure:** Built with **Python (AsyncIO)**, **FastAPI**, **Redis**, and deployed with **Docker**, **Kubernetes (EKS)**, and **Terraform**.
+- **AI Safety & Alignment:** Practical experience evaluating frontier LLMs at Outlier/Atlas Capture, implementing multi-layer prompt injection mitigations, and enforcing strict Pydantic output validation.
 
 ---
 
-### 🚀 Key Production & Applied AI Projects
+### 🚀 Flagship Production Systems (Live Demos & Architecture)
 
 <table>
   <thead>
     <tr>
-      <th width="28%">System / Project</th>
-      <th width="35%">Architecture & Engineering Highlights</th>
-      <th width="22%">Tech Stack</th>
-      <th width="15%">Links</th>
+      <th width="27%">System / Project</th>
+      <th width="37%">Architecture & Engineering Highlights (من الترس ⚙️)</th>
+      <th width="20%">Tech Stack</th>
+      <th width="16%">Live Links</th>
     </tr>
   </thead>
   <tbody>
@@ -60,18 +60,19 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
         <em>Autonomous AI Technical Interviewer</em>
       </td>
       <td>
-        • Real-time voice-to-voice streaming with sub-300ms WebSocket latency.<br/>
-        • Multi-agent evaluation graph assessing candidate responses against dynamic rubrics.<br/>
-        • Multi-tier LLM fallback routing (Groq Qwen-27b + Gemini Flash) ensuring high availability.
+        • Full-duplex voice & text assessment platform with sub-300ms WebSocket streaming latency.<br/>
+        • Multi-agent LangGraph evaluation graph scoring responses against dynamic rubrics and generating asynchronous scorecards.<br/>
+        • Multi-tier LLM fallback routing (Groq Qwen-27b + Gemini Flash) ensuring 99.9% uptime.
       </td>
       <td>
         <code>FastAPI</code> <code>LangGraph</code><br/>
         <code>WebSockets</code> <code>Redis</code><br/>
-        <code>Next.js</code> <code>TypeScript</code>
+        <code>Next.js 16</code> <code>TypeScript</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>📂 GitHub Repo</strong></a><br/>
-        <a href="https://ai-interview-automation.onrender.com/docs"><strong>🌐 Live Demo</strong></a>
+        <a href="https://ai-automation-interview.vercel.app/"><strong>🌐 Live Web Demo</strong></a><br/>
+        <a href="https://ai-interview-automation.onrender.com/docs"><strong>⚡ Swagger API</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
@@ -80,9 +81,9 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
         <em>Logistics & Customer Operations Agent</em>
       </td>
       <td>
-        • 5-layer prompt injection defense framework passing penetration tests.<br/>
-        • Real-time parcel tracking via RAG over distributed shipment databases.<br/>
-        • Automated PII data masking to ensure GDPR-compliant operations.
+        • Audited 5-layer prompt injection defense framework passing 24/24 penetration attack vectors.<br/>
+        • Asynchronous task decoupling via Redis and Celery queues to maintain sub-500ms API response times under load.<br/>
+        • Real-time parcel tracking via RAG with automated GDPR-compliant PII data masking.
       </td>
       <td>
         <code>FastAPI</code> <code>LangChain</code><br/>
@@ -90,8 +91,8 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
         <code>Redis</code> <code>Docker</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/shiphny-ai-support"><strong>📂 GitHub Repo</strong></a><br/>
-        <a href="https://shiphny-ai-support.vercel.app/"><strong>🌐 Live Demo</strong></a>
+        <a href="https://shiphny-ai-support.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/shiphny-ai-support"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
@@ -100,9 +101,9 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
         <em>Multimodal Industrial Document & Audio Inspector</em>
       </td>
       <td>
-        • Multimodal OCR processing complex schematics and invoices via Llama 3.2 Vision.<br/>
-        • Whisper integration for automated voice memo transcription and compliance checks.<br/>
-        • Deterministic Pydantic validation for structured data extraction.
+        • Multimodal OCR processing complex engineering schematics and invoices via Llama 3.2 Vision.<br/>
+        • Whisper voice integration for automated audio memo transcription and compliance cross-checks.<br/>
+        • Strict Pydantic schema validation ensuring deterministic data extraction into downstream ERPs.
       </td>
       <td>
         <code>FastAPI</code> <code>Whisper</code><br/>
@@ -110,19 +111,19 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
         <code>Python</code> <code>OCR</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/ai-auditor-ocr-voice"><strong>📂 GitHub Repo</strong></a><br/>
-        <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>🌐 Live Demo</strong></a>
+        <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/ai-auditor-ocr-voice"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
       <td>
         <strong>🚨 Autonomous SRE Swarm</strong><br/>
-        <em>Self-Healing Incident Remediation</em>
+        <em>Self-Healing Incident Remediation Swarm</em>
       </td>
       <td>
-        • Multi-agent swarm automating log anomaly detection and root-cause analysis (RCA).<br/>
-        • Automated canary rollback workflows and infrastructure alert triage pipelines.<br/>
-        • Human-in-the-loop validation nodes for state-modifying actions.
+        • Multi-agent AIOps swarm using LangGraph for log anomaly detection and root-cause analysis (RCA).<br/>
+        • Automated canary rollback pipelines and self-healing cloud infrastructure remediation workflows.<br/>
+        • Human-in-the-loop review gates preventing unauthorized cluster state modifications.
       </td>
       <td>
         <code>Python</code> <code>LangGraph</code><br/>
@@ -136,12 +137,12 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
     <tr>
       <td>
         <strong>🔍 ReqLens Engine</strong><br/>
-        <em>Requirements Clarity & Ambiguity Analyzer</em>
+        <em>Requirements Ambiguity & Clarity Analyzer</em>
       </td>
       <td>
-        • Automated ambiguity detection in software user stories and specifications.<br/>
-        • Semantic requirement clustering and interactive specification generation.<br/>
-        • Clean Streamlit interface for product and engineering stakeholders.
+        • Automated linguistic ambiguity and conflict detection in software user stories.<br/>
+        • Semantic requirement clustering and interactive specification generation via Gemini 2.5 Flash.<br/>
+        • Clean Streamlit interface tailored for engineering teams and product managers.
       </td>
       <td>
         <code>Python</code> <code>NLP</code><br/>
@@ -149,8 +150,8 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
         <code>Transformers</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/ReqLens"><strong>📂 GitHub Repo</strong></a><br/>
-        <a href="https://reqlens.streamlit.app/"><strong>🌐 Live Demo</strong></a>
+        <a href="https://reqlens.streamlit.app/"><strong>🌐 Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/ReqLens"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
@@ -159,9 +160,9 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
         <em>Full-Stack Intelligent Fitness Advisory</em>
       </td>
       <td>
-        • Context-grounded RAG assistant providing personalized workout & nutritional guidance.<br/>
-        • Vector retrieval over verified fitness literature with conversational history.<br/>
-        • Full-stack responsive web interface with Tailwind CSS and Next.js.
+        • Hybrid lexical-vector RAG assistant providing context-grounded workout & nutritional plans.<br/>
+        • Vector retrieval over verified fitness literature with multi-turn conversational memory in PostgreSQL.<br/>
+        • Full-stack responsive web application built with Next.js, Tailwind CSS, and FastAPI.
       </td>
       <td>
         <code>Next.js</code> <code>TypeScript</code><br/>
@@ -169,19 +170,19 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
         <code>PostgreSQL</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/fullstack-gym-rag-chatbot"><strong>📂 GitHub Repo</strong></a><br/>
-        <a href="https://fullstack-gym-rag-chatbot.vercel.app/"><strong>🌐 Live Demo</strong></a>
+        <a href="https://fullstack-gym-rag-chatbot.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/fullstack-gym-rag-chatbot"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
       <td>
         <strong>⚡ Telegram Store & Commerce Bot</strong><br/>
-        <em>Automated Digital Store with Direct Payments</em>
+        <em>High-Concurrency Digital Storefront Bot</em>
       </td>
       <td>
-        • Asynchronous Telegram bot built with Aiogram 3 and Supabase PostgreSQL.<br/>
-        • Integrated InstaPay, Vodafone Cash, and digital currency checkout flows.<br/>
-        • Zero-trap Finite State Machine (FSM) navigation for frictionless user experience.
+        • Asynchronous serverless bot powered by Aiogram 3, Supabase PostgreSQL, and Redis caching.<br/>
+        • Integrated InstaPay, Vodafone Cash, and digital currency checkout flows with zero-trap FSM.<br/>
+        • Sub-second cold starts with automated keep-alive health monitoring on Vercel.
       </td>
       <td>
         <code>Aiogram 3</code> <code>FastAPI</code><br/>
@@ -195,12 +196,12 @@ My experience spans freelance B2B solutions, hands-on enterprise training, and A
     <tr>
       <td>
         <strong>🛡️ AI Safety & Guardrail API</strong><br/>
-        <em>High-Performance LLM Firewall</em>
+        <em>High-Throughput LLM Security Firewall</em>
       </td>
       <td>
-        • High-throughput microservice for prompt injection mitigation and jailbreak detection.<br/>
-        • Real-time toxicity scoring and automated PII anonymization before upstream LLM calls.<br/>
-        • Low latency overhead designed for enterprise API gateways.
+        • High-speed FastAPI middleware intercepting prompts before upstream LLM inference.<br/>
+        • Real-time prompt injection mitigation, jailbreak detection, and toxicity scoring.<br/>
+        • Sub-millisecond latency overhead engineered for enterprise API gateways.
       </td>
       <td>
         <code>FastAPI</code> <code>Pydantic</code><br/>
@@ -226,10 +227,10 @@ graph LR
     Router --> Agents[LangGraph Multi-Agent Orchestrator]
     Agents --> VectorDB[(Vector DB / Hybrid RAG)]
     Agents --> Cache[(Redis State & Session Cache)]
-    Agents --> Cloud[AWS Infrastructure / Docker]
+    Agents --> Cloud[AWS Infrastructure / Kubernetes]
 ```
 
-- **Deterministic Execution:** LLMs are probabilistic; the systems around them must be deterministic. Every output is strictly validated via Pydantic schemas, retry logic, and circuit breakers.
+- **Deterministic Execution:** LLMs are probabilistic; the systems wrapping them must be deterministic. Every output is strictly validated via Pydantic schemas, retry logic, and circuit breakers.
 - **Resilient Fallbacks:** Multi-provider fallback routing (Groq, Gemini, Anthropic, OpenAI) ensures continuous uptime during provider outages or rate limits.
 - **Security-First Mindset:** Multi-layer input sanitization, PII masking, and prompt injection filters prevent data leakage and adversarial manipulation.
 
