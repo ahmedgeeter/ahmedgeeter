@@ -190,7 +190,7 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
         <code>Supabase</code> <code>Vercel</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/telegram-ai-store-bot"><strong>📂 GitHub Repo</strong></a>
+        <a href="https://github.com/ahmedgeeter/Fully-functional-Telegram-RAG-Agent"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
