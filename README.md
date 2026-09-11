@@ -4,10 +4,10 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=9333ea&center=true&vCenter=true&width=900&lines=Ahmed+Gaiter+%7C+Senior+AI+Software+Engineer;Production+RAG+%26+Autonomous+Multi-Agent+Systems;High-Throughput+FastAPI+Backends+%26+Cloud+MLOps;FastAPI+%E2%80%A2+LangGraph+%E2%80%A2+Redis+%E2%80%A2+Docker+%E2%80%A2+AWS+%E2%80%A2+Terraform" alt="Ahmed Gaiter Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=9333ea&center=true&vCenter=true&width=900&lines=Ahmed+Gaiter+%7C+AI+Software+Engineer;Production+RAG+%26+Multi-Agent+Workflows;FastAPI+Backends+%26+Cloud+Microservices;Python+%E2%80%A2+LangGraph+%E2%80%A2+Redis+%E2%80%A2+Docker+%E2%80%A2+AWS" alt="Ahmed Gaiter Typing" />
 
 <p align="center">
-  <strong>Bridging the gap between cutting-edge AI research and resilient, high-scale production systems.</strong>
+  <strong>Crafting production-ready AI applications and high-performance backend systems that solve real-world problems.</strong>
 </p>
 
 <p align="center">
@@ -29,27 +29,27 @@
 
 ---
 
-### 👨‍💻 Executive Summary
+### 👨‍💻 About Me
 
-I am a **Senior AI Software Engineer and Backend Architect** dedicated to building deterministic, high-throughput systems powered by Large Language Models. 
+I am an **AI Software Engineer & Backend Developer** with a Computer Science background (B.Sc., Mansoura University) focused on moving AI beyond experimental notebooks into reliable, production-ready software.
 
-Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineering the **underlying infrastructure, low-latency streaming APIs, and multi-layered safety guardrails** required to run AI reliably at scale:
-- **Agentic Multi-Step Workflows:** Stateful, tool-calling agents using **LangGraph** with persistent memory, cyclic graph execution, and human-in-the-loop validation.
-- **Production Retrieval-Augmented Generation (RAG):** Hybrid lexical-vector search, semantic reranking, exact citation attribution, and sub-second cold starts.
-- **Resilient Cloud & Microservices Architectures:** Built on **FastAPI**, **Redis**, **Docker**, **Kubernetes (EKS)**, and provisioned with **Terraform**.
-- **AI Safety & Adversarial Defense:** Real-time prompt injection mitigation, PII anonymization, and RLHF evaluation to prevent model hallucinations and data exfiltration.
+My experience spans freelance B2B solutions, hands-on enterprise training, and AI alignment:
+- **Autonomous & Multi-Agent Workflows:** Designing stateful tool-calling workflows using **LangGraph** with cyclic graphs, memory persistence, and human-in-the-loop review.
+- **Production Retrieval-Augmented Generation (RAG):** Engineering hybrid lexical-vector retrieval, semantic reranking, dynamic context windows, and verifiable citation attribution.
+- **High-Performance Backends & Microservices:** Building asynchronous APIs with **FastAPI**, **Redis**, **WebSockets**, and containerizing services with **Docker** & **Kubernetes (EKS)**.
+- **AI Safety & Alignment:** Practical experience from evaluating frontier LLMs at Outlier/Atlas Capture, implementing prompt injection defenses, and enforcing strict Pydantic output validation.
 
 ---
 
-### 🚀 Flagship Production Systems (Live Demos & Source Code)
+### 🚀 Key Production & Applied AI Projects
 
 <table>
   <thead>
     <tr>
       <th width="28%">System / Project</th>
-      <th width="34%">Architecture & Engineering Highlights</th>
-      <th width="23%">Tech Stack</th>
-      <th width="15%">Live Links</th>
+      <th width="35%">Architecture & Engineering Highlights</th>
+      <th width="22%">Tech Stack</th>
+      <th width="15%">Links</th>
     </tr>
   </thead>
   <tbody>
@@ -61,7 +61,7 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
       <td>
         • Real-time voice-to-voice streaming with sub-300ms WebSocket latency.<br/>
         • Multi-agent evaluation graph assessing candidate responses against dynamic rubrics.<br/>
-        • Multi-tier LLM fallback routing (Groq Qwen-27b + Gemini Flash) ensuring 99.9% uptime.
+        • Multi-tier LLM fallback routing (Groq Qwen-27b + Gemini Flash) ensuring high availability.
       </td>
       <td>
         <code>FastAPI</code> <code>LangGraph</code><br/>
@@ -76,12 +76,12 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
     <tr>
       <td>
         <strong>🚢 Shiphny AI Support</strong><br/>
-        <em>Enterprise Logistics & Security Agent</em>
+        <em>Logistics & Customer Operations Agent</em>
       </td>
       <td>
-        • 5-layer prompt injection defense framework passing strict penetration tests.<br/>
+        • 5-layer prompt injection defense framework passing penetration tests.<br/>
         • Real-time parcel tracking via RAG over distributed shipment databases.<br/>
-        • Automated PII data masking to ensure strict GDPR and data compliance standards.
+        • Automated PII data masking to ensure GDPR-compliant operations.
       </td>
       <td>
         <code>FastAPI</code> <code>LangChain</code><br/>
@@ -99,9 +99,9 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
         <em>Multimodal Industrial Document & Audio Inspector</em>
       </td>
       <td>
-        • Multimodal OCR processing complex engineering schematics & invoices via Llama 3.2 Vision.<br/>
-        • Whisper integration for automated voice memo transcription and compliance cross-checks.<br/>
-        • Deterministic Pydantic validation for structured data extraction into ERP systems.
+        • Multimodal OCR processing complex schematics and invoices via Llama 3.2 Vision.<br/>
+        • Whisper integration for automated voice memo transcription and compliance checks.<br/>
+        • Deterministic Pydantic validation for structured data extraction.
       </td>
       <td>
         <code>FastAPI</code> <code>Whisper</code><br/>
@@ -120,8 +120,8 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
       </td>
       <td>
         • Multi-agent swarm automating log anomaly detection and root-cause analysis (RCA).<br/>
-        • Automated canary rollback and self-healing cloud infrastructure remediation pipelines.<br/>
-        • Human-in-the-loop review nodes for critical infrastructure state modifications.
+        • Automated canary rollback workflows and infrastructure alert triage pipelines.<br/>
+        • Human-in-the-loop validation nodes for state-modifying actions.
       </td>
       <td>
         <code>Python</code> <code>LangGraph</code><br/>
@@ -135,12 +135,12 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
     <tr>
       <td>
         <strong>🔍 ReqLens Engine</strong><br/>
-        <em>Software Requirements & Clarity Analyzer</em>
+        <em>Requirements Clarity & Ambiguity Analyzer</em>
       </td>
       <td>
-        • Automated ambiguity detection in software requirements and user stories.<br/>
+        • Automated ambiguity detection in software user stories and specifications.<br/>
         • Semantic requirement clustering and interactive specification generation.<br/>
-        • Real-time analysis interface deployed for non-technical stakeholders.
+        • Clean Streamlit interface for product and engineering stakeholders.
       </td>
       <td>
         <code>Python</code> <code>NLP</code><br/>
@@ -160,7 +160,7 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
       <td>
         • Context-grounded RAG assistant providing personalized workout & nutritional guidance.<br/>
         • Vector retrieval over verified fitness literature with conversational history.<br/>
-        • Full-stack responsive web interface with Tailwind CSS styling and Next.js.
+        • Full-stack responsive web interface with Tailwind CSS and Next.js.
       </td>
       <td>
         <code>Next.js</code> <code>TypeScript</code><br/>
@@ -174,13 +174,13 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
     </tr>
     <tr>
       <td>
-        <strong>⚡ Telegram RAG & Commerce Agent</strong><br/>
-        <em>Automated High-Concurrency Store Bot</em>
+        <strong>⚡ Telegram Store & Commerce Bot</strong><br/>
+        <em>Automated Digital Store with Direct Payments</em>
       </td>
       <td>
-        • Webhook-driven bot with in-memory caching and sub-second cold starts on serverless.<br/>
-        • Vector-grounded Q&A over store catalog with exact citation mapping.<br/>
-        • Native InstaPay, Vodafone Cash & CryptoBot direct checkout workflows with zero-trap FSM.
+        • Asynchronous Telegram bot built with Aiogram 3 and Supabase PostgreSQL.<br/>
+        • Integrated InstaPay, Vodafone Cash, and digital currency checkout flows.<br/>
+        • Zero-trap Finite State Machine (FSM) navigation for frictionless user experience.
       </td>
       <td>
         <code>Aiogram 3</code> <code>FastAPI</code><br/>
@@ -188,8 +188,7 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
         <code>Supabase</code> <code>Vercel</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/Fully-functional-Telegram-RAG-Agent"><strong>📂 GitHub Repo</strong></a><br/>
-        <a href="https://t.me/UnlockProBot"><strong>🤖 Live Telegram Bot</strong></a>
+        <a href="https://github.com/ahmedgeeter/telegram-ai-store-bot"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
@@ -200,7 +199,7 @@ Unlike prototype demos that stay in Jupyter notebooks, I specialize in engineeri
       <td>
         • High-throughput microservice for prompt injection mitigation and jailbreak detection.<br/>
         • Real-time toxicity scoring and automated PII anonymization before upstream LLM calls.<br/>
-        • Sub-millisecond latency overhead designed for enterprise API gateways.
+        • Low latency overhead designed for enterprise API gateways.
       </td>
       <td>
         <code>FastAPI</code> <code>Pydantic</code><br/>
@@ -226,12 +225,12 @@ graph LR
     Router --> Agents[LangGraph Multi-Agent Orchestrator]
     Agents --> VectorDB[(Vector DB / Hybrid RAG)]
     Agents --> Cache[(Redis State & Session Cache)]
-    Agents --> Cloud[AWS Infrastructure / Kubernetes]
+    Agents --> Cloud[AWS Infrastructure / Docker]
 ```
 
-- **Deterministic Execution:** LLMs are non-deterministic; the software wrapping them cannot be. Every output is strictly validated via Pydantic schemas, retry logic, and circuit breakers.
-- **Zero-Downtime Reliability:** Multi-tier provider fallbacks (Anthropic, OpenAI, Open-Source vLLM) ensure zero service disruption during provider rate limits or API degradations.
-- **Security-First Architecture:** Multi-layer input sanitization, PII masking, and prompt injection filters protect corporate knowledge bases from exfiltration.
+- **Deterministic Execution:** LLMs are probabilistic; the systems around them must be deterministic. Every output is strictly validated via Pydantic schemas, retry logic, and circuit breakers.
+- **Resilient Fallbacks:** Multi-provider fallback routing (Groq, Gemini, Anthropic, OpenAI) ensures continuous uptime during provider outages or rate limits.
+- **Security-First Mindset:** Multi-layer input sanitization, PII masking, and prompt injection filters prevent data leakage and adversarial manipulation.
 
 ---
 
@@ -276,23 +275,24 @@ graph LR
 
 ---
 
-### 💼 Professional Experience Highlights
+### 💼 Professional Journey & Experience
 
-- **Senior AI Software Engineer | B2B Solutions Consultant** *(Jan 2024 – Present)*
-  - Engineered low-latency voice and text RAG pipelines handling thousands of daily interactions.
-  - Implemented multi-provider routing (LiteLLM) cutting latency by 35% and reducing inference costs by 40%.
-  - Automated deployment pipelines targeting AWS EKS using Terraform and GitHub Actions.
-- **AI Alignment & Security Engineer** *(Atlas Capture & Outlier · Dec 2024 – Jun 2025)*
-  - Evaluated complex Python/TypeScript code generated by frontier LLMs for RLHF alignment.
-  - Developed adversarial attack benchmarks to detect and mitigate prompt injection vulnerabilities.
+- **AI Software Engineer & Freelance Solutions Developer** *(Jan 2024 – Present)*
+  - Designed and deployed production-grade RAG systems and multi-agent backend APIs using FastAPI and Python.
+  - Implemented multi-provider LLM fallback routing to handle upstream provider limits and maintain application reliability.
+  - Built automated CI/CD deployment pipelines using Docker and GitHub Actions.
+- **AI Alignment & Evaluation Specialist** *(Atlas Capture & Outlier · Dec 2024 – Jun 2025)*
+  - Evaluated and debugged complex Python and TypeScript code generated by frontier LLMs for RLHF alignment datasets.
+  - Tested adversarial attack benchmarks and prompt injection mitigation to improve model safety and code accuracy.
+- **B.Sc. in Computer Science** *(Mansoura University, Egypt · 2019 – 2023)*
 
 ---
 
 ### 📬 Get In Touch
 
-I am open to **Senior AI Engineering roles, Lead Backend positions, and High-Impact AI Consulting**.
+I am actively open to **AI Software Engineering roles, Backend Developer positions, and Impactful AI Projects**.
 
 - 💼 **LinkedIn:** [linkedin.com/in/ahmed-ai-dev](https://www.linkedin.com/in/ahmed-ai-dev/)
-- 🌐 **Portfolio & Case Studies:** [ahmedgaiter.site](https://www.ahmedgaiter.site/)
+- 🌐 **Portfolio:** [ahmedgaiter.site](https://www.ahmedgaiter.site/)
 - 📧 **Direct Email:** [ahmedekramy303@gmail.com](mailto:ahmedekramy303@gmail.com)
-- 📍 **Location:** Cairo, Egypt (Open to Relocation & Remote worldwide)
+- 📍 **Location:** Egypt (Available for Remote worldwide & Relocation)
