@@ -9,7 +9,6 @@
   <a href="https://www.linkedin.com/in/ahmed-ai-dev/"><img src="https://img.shields.io/badge/LinkedIn-ahmed--ai--dev-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/ahmedgeeter"><img src="https://img.shields.io/badge/GitHub-ahmedgeeter-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:ahmedekramy303@gmail.com"><img src="https://img.shields.io/badge/Email-ahmedekramy303%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://maps.google.com"><img src="https://img.shields.io/badge/Location-Egypt%20%7C%20Remote-374151?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" /></a>
 </p>
 
 </div>
