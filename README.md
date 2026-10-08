@@ -1,56 +1,59 @@
 <div align="center">
 
-<img width="360" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="AI Neural Network Animation" />
+# Ahmed Gaiter
+### AI & Backend Software Engineer
+
+Building resilient, asynchronous Python backends, stateful multi-agent workflows (LangGraph), and deterministic LLM pipelines.
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=9333ea&center=true&vCenter=true&width=900&lines=Ahmed+Gaiter+%7C+AI+Software+Engineer;AI+Engineer+%26+Backend+Developer;Production+RAG+%26+Multi-Agent+Workflows;FastAPI+Backends+%26+Cloud+Microservices;Python+%E2%80%A2+LangGraph+%E2%80%A2+Redis+%E2%80%A2+Docker+%E2%80%A2+AWS" alt="Ahmed Gaiter Typing" />
-
-<p align="center">
-  <strong>AI Software Engineer & Backend Developer</strong><br/>
-  <span>Engineering deterministic, production-ready AI systems, agentic workflows, and high-throughput cloud APIs.</span>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ahmed-ai-dev/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Ahmed%20Gaiter-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://www.ahmedgaiter.site/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-ahmedgaiter.site-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:ahmedekramy303@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ahmedekramy303%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/ahmedgeeter">
-    <img src="https://img.shields.io/badge/Location-Egypt%20%7C%20Remote--Ready-24292e?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-  </a>
-</p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-ahmedgaiter.site-111827?style=flat-square&logo=vercel&logoColor=white)](https://www.ahmedgaiter.site/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--ai--dev-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-ai-dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-ahmedgeeter-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedgeeter)
+[![Email](https://img.shields.io/badge/Email-ahmedekramy303%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ahmedekramy303@gmail.com)
+[![Location](https://img.shields.io/badge/Location-Egypt%20%7C%20Remote-374151?style=flat-square&logo=googlemaps&logoColor=white)](https://maps.google.com)
 
 </div>
 
 ---
 
-### 👨‍💻 About Me & Engineering Focus
+### 💡 Engineering Focus
 
-I am an **AI Software Engineer & Backend Developer** with a Computer Science background (B.Sc., Mansoura University) specializing in transforming probabilistic AI models into deterministic, high-throughput production software.
+While Large Language Models are inherently probabilistic, production systems wrapping them must be deterministic, fault-tolerant, and observable.
 
-Unlike experimental notebook scripts, I engineer the **low-latency streaming pipelines, stateful agent graphs, and multi-tier safety guardrails** needed to run AI reliably at enterprise scale:
-- **Agentic Multi-Step Workflows:** Stateful tool-calling systems using **LangGraph** featuring cyclic execution graphs, memory persistence, and human-in-the-loop review nodes.
-- **Production Retrieval-Augmented Generation (RAG):** Hybrid lexical-vector search, semantic reranking, dynamic context windows, and exact citation attribution.
-- **Resilient Microservices & Cloud Infrastructure:** Built with **Python (AsyncIO)**, **FastAPI**, **Redis**, and deployed with **Docker**, **Kubernetes**, and **Terraform**.
-- **AI Safety & Alignment:** Practical experience evaluating frontier LLMs, implementing multi-layer prompt injection mitigations, and enforcing strict Pydantic output validation.
+My work centers on the backend infrastructure that makes AI reliable in production:
+- **Asynchronous API Architectures:** Low-latency API gateways, full-duplex WebSockets, and non-blocking streaming built with **Python (AsyncIO)** and **FastAPI**.
+- **Stateful Agentic Workflows:** Multi-step cyclical graphs using **LangGraph**, enforcing strict tool-calling boundaries, state checkpointing, and dynamic evaluator rubrics.
+- **Distributed Concurrency & Queuing:** Decoupling compute-heavy inference and evaluation pipelines to **Celery workers** backed by **Redis** and **PostgreSQL**.
+- **Resilience & Safety:** Multi-provider fallback chains (Groq ➔ Gemini ➔ OpenAI), regex-compiled injection mitigations, and strict **Pydantic v2** schema contracts.
 
 ---
 
-### 🚀 Flagship Production Systems (Live Demos & Architecture)
+### 🏛️ System Architecture
+
+```mermaid
+graph LR
+    Client[Client / WebSockets] --> Gateway[FastAPI Gateway / Rate Limiter]
+    Gateway --> Guardrail[AI Safety & PII Sanitizer]
+    Gateway --> Router[Multi-Provider LLM Fallback Router]
+    Router --> Agents[LangGraph Cyclic State Machine]
+    Agents --> Tools[Authenticated Backend Tools & DB]
+    Agents -.-> Queue[Async Celery Task Queue]
+    Queue --> Redis[(Redis Broker & Cache)]
+    Tools --> Postgres[(PostgreSQL Ledger)]
+```
+
+---
+
+### 🚀 Flagship Engineering Projects
 
 <table>
   <thead>
     <tr>
-      <th width="27%">System / Project</th>
-      <th width="37%">Architecture & Engineering Highlights</th>
+      <th width="24%">Project</th>
+      <th width="42%">Architecture & Highlights</th>
       <th width="20%">Tech Stack</th>
-      <th width="16%">Live Links</th>
+      <th width="14%">Links</th>
     </tr>
   </thead>
   <tbody>
@@ -60,118 +63,86 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
         <em>Autonomous AI Technical Interviewer</em>
       </td>
       <td>
-        • Full-duplex voice & text assessment platform with sub-300ms WebSocket streaming latency.<br/>
-        • Multi-agent LangGraph evaluation graph scoring responses against dynamic rubrics.<br/>
-        • Multi-tier LLM fallback routing (Groq Qwen-27b + Gemini Flash) ensuring continuous uptime.
+        • Full-duplex WebSocket architecture in FastAPI for bi-directional streaming interaction.<br/>
+        • Event-driven LangGraph state machine calibrating question depth and seniority dynamically.<br/>
+        • Scoring and analysis offloaded to asynchronous Celery workers backed by Redis to keep WebSocket loops non-blocking.<br/>
+        • Multi-provider fallback routing (Groq LPU ➔ Gemini Flash) for uninterrupted live sessions.<br/>
+        • Comprehensive Pytest integration suite for connection lifecycles and graph transitions.
       </td>
       <td>
-        <code>FastAPI</code> <code>LangGraph</code><br/>
-        <code>WebSockets</code> <code>Redis</code><br/>
-        <code>Next.js 16</code> <code>TypeScript</code>
+        <code>Python (AsyncIO)</code><br/>
+        <code>FastAPI</code> <code>WebSockets</code><br/>
+        <code>LangGraph</code> <code>Celery</code><br/>
+        <code>Redis</code> <code>Pytest</code><br/>
+        <code>Next.js</code> <code>TypeScript</code>
       </td>
       <td>
-        <a href="https://ai-automation-interview.vercel.app/"><strong>🌐 Live Web Demo</strong></a><br/>
-        <a href="https://ai-interview-automation.onrender.com/docs"><strong>⚡ Swagger API</strong></a><br/>
-        <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>📂 GitHub Repo</strong></a>
+        <a href="https://ai-automation-interview.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>📂 GitHub</strong></a>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>🚢 Shiphny AI Support</strong><br/>
-        <em>Multi-Agent Logistics & Customer Platform</em>
+        <strong>👁️ Meridian</strong><br/>
+        <em>Multimodal Document & Vocal Inspector</em>
+      </td>
+      <td>
+        • Vision-language pipeline parsing complex engineering blueprints and invoices via Llama 3.2 Vision.<br/>
+        • Whisper voice integration enabling real-time vocal compliance audits with Voice Activity Detection (VAD).<br/>
+        • Deterministic output extraction enforced via strict Pydantic v2 validation models, preventing schema drift.
+      </td>
+      <td>
+        <code>Python</code> <code>FastAPI</code><br/>
+        <code>Llama 3.2 Vision</code><br/>
+        <code>Whisper</code> <code>Pydantic v2</code><br/>
+        <code>React</code> <code>TypeScript</code>
+      </td>
+      <td>
+        <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/ai-auditor-ocr-voice"><strong>📂 GitHub</strong></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>🚢 Shiphny</strong><br/>
+        <em>Multi-Agent Logistics Platform</em>
       </td>
       <td>
         • LangGraph cyclic state machine enforcing authenticated tool boundaries (tracking, cancellation, billing).<br/>
-        • Decoupled background task orchestration with Redis session cache and PostgreSQL ledgers.<br/>
-        • Automated LLM fallback chain across Groq and Gemini for high-availability customer tracking.
+        • Decoupled background workflows with Redis session storage and PostgreSQL ledgers managed via Alembic migrations.<br/>
+        • Automated multi-provider LLM fallback routing chained across Groq and Gemini.<br/>
+        • Automated CI/CD pipeline building multi-stage Docker images to GitHub Container Registry (GHCR).
       </td>
       <td>
         <code>FastAPI</code> <code>LangGraph</code><br/>
         <code>PostgreSQL</code> <code>Redis</code><br/>
-        <code>Docker</code> <code>Terraform</code>
+        <code>Docker</code> <code>CI/CD</code><br/>
+        <code>Terraform</code> <code>Helm</code>
       </td>
       <td>
         <a href="https://shiphny-ai-support.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
-        <a href="https://github.com/ahmedgeeter/shiphny-ai-support"><strong>📂 GitHub Repo</strong></a>
+        <a href="https://github.com/ahmedgeeter/shiphny-ai-support"><strong>📂 GitHub</strong></a>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>👁️ Meridian AI Auditor</strong><br/>
-        <em>Multimodal Industrial Document & Audio Inspector</em>
+        <strong>🛡️ AI Guardrail API</strong><br/>
+        <em>High-Throughput Safety Middleware</em>
       </td>
       <td>
-        • Multimodal OCR processing complex engineering schematics and invoices via Llama 3.2 Vision.<br/>
-        • Whisper voice integration for automated audio memo transcription and compliance cross-checks.<br/>
-        • Strict Pydantic schema validation ensuring deterministic data extraction into downstream systems.
+        • Pre-flight prompt inspection middleware catching adversarial injection and jailbreak patterns.<br/>
+        • Automated regex-compiled PII sanitization (Emails, Phones, Credit Cards, API Keys, SSNs).<br/>
+        • Optimized for sub-5ms heuristic evaluation overhead with zero external ML runtime dependencies.<br/>
+        • Fully tested with Pytest covering clean queries, attack attempts, and redaction verification.
       </td>
       <td>
-        <code>FastAPI</code> <code>Whisper</code><br/>
-        <code>Llama Vision</code> <code>Pydantic</code><br/>
-        <code>React 18</code> <code>TypeScript</code>
+        <code>Python</code> <code>FastAPI</code><br/>
+        <code>Pydantic v2</code> <code>Docker</code><br/>
+        <code>Regex Automata</code><br/>
+        <code>Pytest</code>
       </td>
       <td>
-        <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
-        <a href="https://github.com/ahmedgeeter/ai-auditor-ocr-voice"><strong>📂 GitHub Repo</strong></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>🛡️ AI Safety & Guardrail API</strong><br/>
-        <em>High-Throughput LLM Security Firewall</em>
-      </td>
-      <td>
-        • High-speed FastAPI middleware intercepting prompts before upstream LLM inference.<br/>
-        • Real-time prompt injection mitigation, jailbreak heuristic detection, and automated PII scrubbing.<br/>
-        • Sub-5ms latency overhead engineered for enterprise API gateways with full Pytest test suite.
-      </td>
-      <td>
-        <code>FastAPI</code> <code>Pydantic</code><br/>
-        <code>Pytest</code> <code>Docker</code><br/>
-        <code>LLM Security</code>
-      </td>
-      <td>
-        <a href="https://github.com/ahmedgeeter/LLM-Safety-Guardrail-API"><strong>📂 GitHub Repo</strong></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>🔍 ReqLens Engine</strong><br/>
-        <em>Requirements Ambiguity & Clarity Analyzer</em>
-      </td>
-      <td>
-        • Automated linguistic ambiguity and conflict detection in software user stories.<br/>
-        • Semantic requirement clustering and interactive specification generation via Gemini 2.5 Flash.<br/>
-        • Clean Streamlit interface tailored for engineering teams and product managers.
-      </td>
-      <td>
-        <code>Python</code> <code>NLP</code><br/>
-        <code>Streamlit</code> <code>FastAPI</code><br/>
-        <code>Transformers</code>
-      </td>
-      <td>
-        <a href="https://reqlens.streamlit.app/"><strong>🌐 Live Demo</strong></a><br/>
-        <a href="https://github.com/ahmedgeeter/ReqLens"><strong>📂 GitHub Repo</strong></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>🏋️ Gym & Fitness RAG Chatbot</strong><br/>
-        <em>Full-Stack Intelligent Fitness Advisory</em>
-      </td>
-      <td>
-        • Hybrid lexical-vector RAG assistant providing context-grounded workout & nutritional plans.<br/>
-        • Vector retrieval over verified fitness literature with multi-turn conversational memory in PostgreSQL.<br/>
-        • Full-stack responsive web application built with Next.js, Tailwind CSS, and FastAPI.
-      </td>
-      <td>
-        <code>Next.js</code> <code>TypeScript</code><br/>
-        <code>FastAPI</code> <code>RAG</code><br/>
-        <code>PostgreSQL</code>
-      </td>
-      <td>
-        <a href="https://fullstack-gym-rag-chatbot.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
-        <a href="https://github.com/ahmedgeeter/fullstack-gym-rag-chatbot"><strong>📂 GitHub Repo</strong></a>
+        <a href="https://github.com/ahmedgeeter/LLM-Safety-Guardrail-API"><strong>📂 GitHub</strong></a>
       </td>
     </tr>
   </tbody>
@@ -179,90 +150,41 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
 
 ---
 
-### 🛡️ System Design & Architecture Principles
+### 🛠️ Technical Stack
 
-```mermaid
-graph LR
-    User[Client / WebSockets] --> Gateway[FastAPI Gateway / Rate Limiter]
-    Gateway --> Guardrail[AI Safety & PII Sanitizer]
-    Guardrail --> Router[Semantic LLM Router / LiteLLM]
-    Router --> Agents[LangGraph Multi-Agent Orchestrator]
-    Agents --> VectorDB[(Vector DB / Hybrid RAG)]
-    Agents --> Cache[(Redis State & Session Cache)]
-    Agents --> Cloud[AWS Infrastructure / Kubernetes]
+```
+Languages:            Python (AsyncIO, Concurrency), TypeScript, JavaScript, SQL (PostgreSQL), Bash
+AI & Agents:          LangGraph, RAG Architecture, Tool-Calling Guardrails, LiteLLM, Whisper, Vision LLMs
+Backend & Queues:     FastAPI, Full-Duplex WebSockets, Redis (Pub/Sub & Caching), Celery, Pydantic v2
+Databases & Storage:  PostgreSQL, Alembic Migrations, SQLite, Redis
+DevOps & Cloud:       Docker, Docker Compose, Kubernetes Manifests, GitHub Actions (CI/CD), Linux
+Testing & Quality:    Pytest, Async Testing, Mock Fixtures, Strict Schema Typing
 ```
 
-- **Deterministic Execution:** LLMs are probabilistic; the systems wrapping them must be deterministic. Every output is strictly validated via Pydantic schemas, retry logic, and circuit breakers.
-- **Resilient Fallbacks:** Multi-provider fallback routing (Groq, Gemini, Anthropic, OpenAI) ensures continuous uptime during provider outages or rate limits.
-- **Security-First Mindset:** Multi-layer input sanitization, PII masking, and prompt injection filters prevent data leakage and adversarial manipulation.
-
 ---
 
-### 🧰 Technical Arsenal
-
-<div align="center">
-
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **AI & Agentic Systems** | `LangGraph` • `LangChain` • `LlamaIndex` • `LiteLLM` • `FAISS` • `ChromaDB` • `Whisper` • `Llama 3.2 Vision` |
-| **Backend & Microservices** | `Python (AsyncIO)` • `FastAPI` • `WebSockets` • `Celery` • `Pydantic` • `RESTful Architecture` |
-| **Databases & Caching** | `PostgreSQL` • `Supabase` • `Redis (Caching, Pub/Sub, Queues)` • `SQLite` • `Alembic` |
-| **Cloud & DevOps** | `Docker` • `Kubernetes` • `Terraform (IaC)` • `AWS (EC2, S3)` • `GitHub Actions CI/CD` • `Linux` |
-| **Frontend & UI** | `TypeScript` • `Next.js` • `React` • `Tailwind CSS` |
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,kubernetes,terraform,aws,git,linux,react,nextjs,ts&theme=dark" />
-
-</div>
-
----
-
-### 📊 GitHub Activity & Metrics
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ahmedgeeter&theme=github_dark" alt="Ahmed's GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ahmedgeeter&theme=github_dark" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-  
-  <br/>
-
-  <img src="https://streak-stats.demolab.com/?user=ahmedgeeter&theme=tokyonight&hide_border=false&border_color=7c3aed&background=0d1117&ring=7c3aed&fire=f59e0b&currStreakNum=e2e8f0" alt="GitHub Streak" />
-</div>
-
----
-
-### 💼 Professional Journey & Experience
+### 💼 Professional Journey
 
 - **Software Engineer (AI & Backend) | Independent Contractor** *(Jan 2024 – Present)*
-  - Designed and deployed production-grade RAG systems and multi-agent backend APIs using FastAPI and Python.
-  - Implemented multi-provider LLM fallback routing to handle upstream provider limits and maintain application reliability.
-  - Built automated CI/CD deployment pipelines using Docker and GitHub Actions.
+  - Designed and deployed asynchronous RAG pipelines and multi-agent backend APIs using FastAPI and Python.
+  - Implemented multi-provider LLM fallback routing to eliminate upstream rate limits and ensure service uptime.
+  - Architected asynchronous task queues backed by Redis to decouple heavy inference workflows from API response loops.
 
 - **AI Integration Engineer | Springer Capital** *(Remote Contract · May 2025 – Sep 2025)*
-  - Automated internal operational workflows and data transformation pipelines by developing custom Python endpoints and LLM integration scripts.
-  - Collaborated with remote engineering squads to standardize data schemas and optimize ingestion reliability.
+  - Developed custom Python automation scripts and LLM endpoints for operational workflow synchronization.
+  - Standardized data schemas across ingestion pipelines in collaboration with a remote engineering team.
 
 - **AI Alignment & Code Security Specialist | Atlas Capture** *(Remote Contract · Dec 2024 – Feb 2025)*
-  - Evaluated and debugged complex Python and TypeScript code generated by frontier LLMs for RLHF alignment datasets.
-  - Tested adversarial attack benchmarks and prompt injection mitigation to improve model safety and code accuracy.
+  - Audited and debugged complex Python and TypeScript code generated by frontier LLMs for RLHF alignment benchmarks.
+  - Evaluated prompt injection vectors and adversarial attack datasets to reinforce model response reliability.
 
 - **B.Sc. in Computer Science** *(Mansoura University, Egypt · 2019 – 2023)*
 
 ---
 
-### 📬 Get In Touch
+### 📬 Contact & Links
 
-I am actively open to **AI Software Engineering roles, Backend Developer positions, and Impactful AI Projects**.
-
-- 💼 **LinkedIn:** [linkedin.com/in/ahmed-ai-dev](https://www.linkedin.com/in/ahmed-ai-dev/)
 - 🌐 **Portfolio:** [ahmedgaiter.site](https://www.ahmedgaiter.site/)
-- 📧 **Direct Email:** [ahmedekramy303@gmail.com](mailto:ahmedekramy303@gmail.com)
-- 📍 **Location:** Egypt (Available for Remote worldwide & Relocation)
+- 💼 **LinkedIn:** [linkedin.com/in/ahmed-ai-dev](https://www.linkedin.com/in/ahmed-ai-dev/)
+- 📧 **Email:** [ahmedekramy303@gmail.com](mailto:ahmedekramy303@gmail.com)
+- 📍 **Location:** Cairo, Egypt (Available for Remote worldwide & Relocation)
