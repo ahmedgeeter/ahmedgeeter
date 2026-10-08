@@ -1,133 +1,166 @@
 <div align="center">
 
 # Ahmed Gaiter
-### AI & Backend Software Engineer
-
-Building resilient, asynchronous Python backends, stateful multi-agent workflows (LangGraph), and deterministic LLM pipelines.
+**AI & Backend Software Engineer**
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ahmedgaiter.site-111827?style=flat-square&logo=vercel&logoColor=white)](https://www.ahmedgaiter.site/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--ai--dev-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-ai-dev/)
-[![GitHub](https://img.shields.io/badge/GitHub-ahmedgeeter-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmedgeeter)
-[![Email](https://img.shields.io/badge/Email-ahmedekramy303%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ahmedekramy303@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Egypt%20%7C%20Remote-374151?style=flat-square&logo=googlemaps&logoColor=white)](https://maps.google.com)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2500&pause=1200&color=6366F1&center=true&vCenter=true&width=800&lines=AI+%26+Backend+Software+Engineer;Asynchronous+Python+(FastAPI+%26+AsyncIO);Stateful+Agentic+Workflows+(LangGraph);Distributed+Task+Queues+(Redis+%26+Celery);Production+RAG+%26+LLM+Resilience+Routing" alt="Typing Banner" />
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-ahmedgaiter.site-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.ahmedgaiter.site/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--ai--dev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-ai-dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-ahmedgeeter-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedgeeter)
+[![Email](https://img.shields.io/badge/Email-ahmedekramy303%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmedekramy303@gmail.com)
+
+<br/>
 
 </div>
 
 ---
 
-### 💡 Engineering Focus
+### Specialization & Engineering Principles
 
-While Large Language Models are inherently probabilistic, production systems wrapping them must be deterministic, fault-tolerant, and observable.
+While frontier Large Language Models are inherently probabilistic, production systems wrapping them must be deterministic, observable, and resilient. 
 
-My work centers on the backend infrastructure that makes AI reliable in production:
-- **Asynchronous API Architectures:** Low-latency API gateways, full-duplex WebSockets, and non-blocking streaming built with **Python (AsyncIO)** and **FastAPI**.
-- **Stateful Agentic Workflows:** Multi-step cyclical graphs using **LangGraph**, enforcing strict tool-calling boundaries, state checkpointing, and dynamic evaluator rubrics.
-- **Distributed Concurrency & Queuing:** Decoupling compute-heavy inference and evaluation pipelines to **Celery workers** backed by **Redis** and **PostgreSQL**.
-- **Resilience & Safety:** Multi-provider fallback chains (Groq ➔ Gemini ➔ OpenAI), regex-compiled injection mitigations, and strict **Pydantic v2** schema contracts.
+I focus on the core backend engineering required to make AI reliable at scale:
 
----
-
-### 🏛️ System Architecture
-
-```mermaid
-graph LR
-    Client[Client / WebSockets] --> Gateway[FastAPI Gateway / Rate Limiter]
-    Gateway --> Guardrail[AI Safety & PII Sanitizer]
-    Gateway --> Router[Multi-Provider LLM Fallback Router]
-    Router --> Agents[LangGraph Cyclic State Machine]
-    Agents --> Tools[Authenticated Backend Tools & DB]
-    Agents -.-> Queue[Async Celery Task Queue]
-    Queue --> Redis[(Redis Broker & Cache)]
-    Tools --> Postgres[(PostgreSQL Ledger)]
-```
+- **Asynchronous API Gateways:** Engineering non-blocking API gateways and full-duplex WebSockets using **Python (AsyncIO)** and **FastAPI** to maintain sub-second streaming latencies.
+- **Stateful Multi-Agent Workflows:** Developing state machines via **LangGraph**, enforcing strict tool-calling boundaries, state persistence, and dynamic evaluation rubrics.
+- **Concurrency & Background Processing:** Offloading compute-heavy inference, document parsing, and scoring jobs to **Celery workers** backed by **Redis** queues and **PostgreSQL**.
+- **Deterministic Validation & Safety:** Guaranteeing API payload integrity with **Pydantic v2** schemas, regex-compiled prompt injection filters, and multi-provider fallback routing (Groq ➔ Gemini ➔ OpenAI).
 
 ---
 
-### 🚀 Flagship Engineering Projects
+### Technologies & Tooling
+
+<div align="center">
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,kubernetes,git,linux,typescript,nextjs,react,tailwind&theme=dark" alt="Tech Stack Icons" />
+</a>
+
+</div>
+
+<br/>
+
+| Domain | Core Stack & Frameworks |
+| :--- | :--- |
+| **Backend & Concurrency** | Python (AsyncIO), FastAPI, Full-Duplex WebSockets, Celery, Redis (Pub/Sub & Caching) |
+| **AI & Agentic Systems** | LangGraph, RAG Architecture, Tool-Calling Guardrails, LiteLLM, Whisper, Vision LLMs |
+| **Databases & Integrity** | PostgreSQL, Alembic Migrations, SQLite, Pydantic v2 Strict Validation |
+| **Infrastructure & DevOps** | Docker, Docker Compose, Kubernetes Manifests, GitHub Actions (CI/CD), Linux |
+| **Testing & Quality** | Pytest, Async Fixtures, Mock LLM Test Suites, CI Workflow Automation |
+
+---
+
+### Core Production Architectural Patterns
+
+Instead of building brittle direct-API wrappers, my systems implement three proven production patterns:
+
+#### 1. Concurrency Decoupling Pattern
+> **Problem:** Running audio processing, LLM evaluation, and scoring inside an open WebSocket connection blocks the event loop and introduces 3–5 second candidate freezes.  
+> **Solution:** The WebSocket router handles only streaming communication; transcript scoring and multi-metric evaluations are dispatched asynchronously to Celery workers backed by Redis.
+
+#### 2. Deterministic Agent Sandboxing
+> **Problem:** Autonomous LLM agents are prone to hallucinations, unauthorized operations, and schema drift.  
+> **Solution:** Agents are modeled as LangGraph state machines restricted to verified, authenticated tool boundaries (`get_shipment_status`, `verify_customer`, `cancel_shipment`) with Pydantic output validation.
+
+#### 3. Multi-Provider Fallback Routing
+> **Problem:** Upstream LLM providers encounter rate limits (429), regional outages, or latency spikes during peak load.  
+> **Solution:** Primary traffic routes to ultra-fast LPUs (Groq Llama/Qwen) with automated runtime fallback chains to Google Gemini Flash and OpenAI.
+
+---
+
+### Flagship Systems (Live & Open Source)
 
 <table>
   <thead>
     <tr>
-      <th width="24%">Project</th>
-      <th width="42%">Architecture & Highlights</th>
-      <th width="20%">Tech Stack</th>
-      <th width="14%">Links</th>
+      <th width="25%">System</th>
+      <th width="43%">Architecture & Highlights</th>
+      <th width="18%">Tech Stack</th>
+      <th width="14%">Repository</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <strong>🎙️ AutoHire</strong><br/>
-        <em>Autonomous AI Technical Interviewer</em>
+        <strong>AutoHire</strong><br/>
+        <em>Real-Time Autonomous Technical Interviewer</em>
       </td>
       <td>
-        • Full-duplex WebSocket architecture in FastAPI for bi-directional streaming interaction.<br/>
-        • Event-driven LangGraph state machine calibrating question depth and seniority dynamically.<br/>
-        • Scoring and analysis offloaded to asynchronous Celery workers backed by Redis to keep WebSocket loops non-blocking.<br/>
-        • Multi-provider fallback routing (Groq LPU ➔ Gemini Flash) for uninterrupted live sessions.<br/>
+        • Full-duplex WebSocket architecture in FastAPI for bi-directional candidate streaming.<br/>
+        • Event-driven LangGraph state machine calibrating question depth dynamically.<br/>
+        • Scoring and analysis offloaded to asynchronous Celery workers backed by Redis.<br/>
+        • Automated fallback routing (Groq ➔ Gemini) for uninterrupted live sessions.<br/>
         • Comprehensive Pytest integration suite for connection lifecycles and graph transitions.
       </td>
       <td>
         <code>Python (AsyncIO)</code><br/>
-        <code>FastAPI</code> <code>WebSockets</code><br/>
-        <code>LangGraph</code> <code>Celery</code><br/>
-        <code>Redis</code> <code>Pytest</code><br/>
-        <code>Next.js</code> <code>TypeScript</code>
+        <code>FastAPI</code><br/>
+        <code>WebSockets</code><br/>
+        <code>LangGraph</code><br/>
+        <code>Celery</code> <code>Redis</code><br/>
+        <code>Pytest</code>
       </td>
       <td>
-        <a href="https://ai-automation-interview.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
-        <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>📂 GitHub</strong></a>
+        <a href="https://ai-automation-interview.vercel.app/"><strong>Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/ai-interview-automation"><strong>GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>👁️ Meridian</strong><br/>
+        <strong>Meridian</strong><br/>
         <em>Multimodal Document & Vocal Inspector</em>
       </td>
       <td>
         • Vision-language pipeline parsing complex engineering blueprints and invoices via Llama 3.2 Vision.<br/>
         • Whisper voice integration enabling real-time vocal compliance audits with Voice Activity Detection (VAD).<br/>
-        • Deterministic output extraction enforced via strict Pydantic v2 validation models, preventing schema drift.
+        • Deterministic output extraction enforced via strict Pydantic v2 models, preventing schema drift.
       </td>
       <td>
-        <code>Python</code> <code>FastAPI</code><br/>
-        <code>Llama 3.2 Vision</code><br/>
-        <code>Whisper</code> <code>Pydantic v2</code><br/>
-        <code>React</code> <code>TypeScript</code>
+        <code>Python</code><br/>
+        <code>FastAPI</code><br/>
+        <code>Llama Vision</code><br/>
+        <code>Whisper</code><br/>
+        <code>Pydantic v2</code><br/>
+        <code>React</code>
       </td>
       <td>
-        <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
-        <a href="https://github.com/ahmedgeeter/ai-auditor-ocr-voice"><strong>📂 GitHub</strong></a>
+        <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/ai-auditor-ocr-voice"><strong>GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>🚢 Shiphny</strong><br/>
-        <em>Multi-Agent Logistics Platform</em>
+        <strong>Shiphny</strong><br/>
+        <em>Multi-Agent Logistics & Customer Support</em>
       </td>
       <td>
         • LangGraph cyclic state machine enforcing authenticated tool boundaries (tracking, cancellation, billing).<br/>
-        • Decoupled background workflows with Redis session storage and PostgreSQL ledgers managed via Alembic migrations.<br/>
+        • Decoupled background workflows with Redis session storage and PostgreSQL ledgers.<br/>
         • Automated multi-provider LLM fallback routing chained across Groq and Gemini.<br/>
         • Automated CI/CD pipeline building multi-stage Docker images to GitHub Container Registry (GHCR).
       </td>
       <td>
-        <code>FastAPI</code> <code>LangGraph</code><br/>
-        <code>PostgreSQL</code> <code>Redis</code><br/>
-        <code>Docker</code> <code>CI/CD</code><br/>
-        <code>Terraform</code> <code>Helm</code>
+        <code>FastAPI</code><br/>
+        <code>LangGraph</code><br/>
+        <code>PostgreSQL</code><br/>
+        <code>Redis</code><br/>
+        <code>Docker</code><br/>
+        <code>Terraform</code>
       </td>
       <td>
-        <a href="https://shiphny-ai-support.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
-        <a href="https://github.com/ahmedgeeter/shiphny-ai-support"><strong>📂 GitHub</strong></a>
+        <a href="https://shiphny-ai-support.vercel.app/"><strong>Live Demo</strong></a><br/>
+        <a href="https://github.com/ahmedgeeter/shiphny-ai-support"><strong>GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>🛡️ AI Guardrail API</strong><br/>
-        <em>High-Throughput Safety Middleware</em>
+        <strong>AI Guardrail API</strong><br/>
+        <em>High-Throughput Safety & PII Redactor</em>
       </td>
       <td>
         • Pre-flight prompt inspection middleware catching adversarial injection and jailbreak patterns.<br/>
@@ -136,13 +169,15 @@ graph LR
         • Fully tested with Pytest covering clean queries, attack attempts, and redaction verification.
       </td>
       <td>
-        <code>Python</code> <code>FastAPI</code><br/>
-        <code>Pydantic v2</code> <code>Docker</code><br/>
+        <code>Python</code><br/>
+        <code>FastAPI</code><br/>
+        <code>Pydantic v2</code><br/>
         <code>Regex Automata</code><br/>
+        <code>Docker</code><br/>
         <code>Pytest</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/LLM-Safety-Guardrail-API"><strong>📂 GitHub</strong></a>
+        <a href="https://github.com/ahmedgeeter/LLM-Safety-Guardrail-API"><strong>GitHub Repo</strong></a>
       </td>
     </tr>
   </tbody>
@@ -150,24 +185,11 @@ graph LR
 
 ---
 
-### 🛠️ Technical Stack
-
-```
-Languages:            Python (AsyncIO, Concurrency), TypeScript, JavaScript, SQL (PostgreSQL), Bash
-AI & Agents:          LangGraph, RAG Architecture, Tool-Calling Guardrails, LiteLLM, Whisper, Vision LLMs
-Backend & Queues:     FastAPI, Full-Duplex WebSockets, Redis (Pub/Sub & Caching), Celery, Pydantic v2
-Databases & Storage:  PostgreSQL, Alembic Migrations, SQLite, Redis
-DevOps & Cloud:       Docker, Docker Compose, Kubernetes Manifests, GitHub Actions (CI/CD), Linux
-Testing & Quality:    Pytest, Async Testing, Mock Fixtures, Strict Schema Typing
-```
-
----
-
-### 💼 Professional Journey
+### Professional Experience
 
 - **Software Engineer (AI & Backend) | Independent Contractor** *(Jan 2024 – Present)*
   - Designed and deployed asynchronous RAG pipelines and multi-agent backend APIs using FastAPI and Python.
-  - Implemented multi-provider LLM fallback routing to eliminate upstream rate limits and ensure service uptime.
+  - Implemented multi-provider LLM fallback routing to eliminate upstream rate limits and ensure service availability.
   - Architected asynchronous task queues backed by Redis to decouple heavy inference workflows from API response loops.
 
 - **AI Integration Engineer | Springer Capital** *(Remote Contract · May 2025 – Sep 2025)*
@@ -182,9 +204,9 @@ Testing & Quality:    Pytest, Async Testing, Mock Fixtures, Strict Schema Typing
 
 ---
 
-### 📬 Contact & Links
+### Contact
 
-- 🌐 **Portfolio:** [ahmedgaiter.site](https://www.ahmedgaiter.site/)
-- 💼 **LinkedIn:** [linkedin.com/in/ahmed-ai-dev](https://www.linkedin.com/in/ahmed-ai-dev/)
-- 📧 **Email:** [ahmedekramy303@gmail.com](mailto:ahmedekramy303@gmail.com)
-- 📍 **Location:** Cairo, Egypt (Available for Remote worldwide & Relocation)
+- **Portfolio:** [ahmedgaiter.site](https://www.ahmedgaiter.site/)
+- **LinkedIn:** [linkedin.com/in/ahmed-ai-dev](https://www.linkedin.com/in/ahmed-ai-dev/)
+- **Email:** [ahmedekramy303@gmail.com](mailto:ahmedekramy303@gmail.com)
+- **Location:** Cairo, Egypt (Available for Remote worldwide & Relocation)
