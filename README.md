@@ -37,8 +37,8 @@ I am an **AI Software Engineer & Backend Developer** with a Computer Science bac
 Unlike experimental notebook scripts, I engineer the **low-latency streaming pipelines, stateful agent graphs, and multi-tier safety guardrails** needed to run AI reliably at enterprise scale:
 - **Agentic Multi-Step Workflows:** Stateful tool-calling systems using **LangGraph** featuring cyclic execution graphs, memory persistence, and human-in-the-loop review nodes.
 - **Production Retrieval-Augmented Generation (RAG):** Hybrid lexical-vector search, semantic reranking, dynamic context windows, and exact citation attribution.
-- **Resilient Microservices & Cloud Infrastructure:** Built with **Python (AsyncIO)**, **FastAPI**, **Redis**, and deployed with **Docker**, **Kubernetes (EKS)**, and **Terraform**.
-- **AI Safety & Alignment:** Practical experience evaluating frontier LLMs at Outlier/Atlas Capture, implementing multi-layer prompt injection mitigations, and enforcing strict Pydantic output validation.
+- **Resilient Microservices & Cloud Infrastructure:** Built with **Python (AsyncIO)**, **FastAPI**, **Redis**, and deployed with **Docker**, **Kubernetes**, and **Terraform**.
+- **AI Safety & Alignment:** Practical experience evaluating frontier LLMs, implementing multi-layer prompt injection mitigations, and enforcing strict Pydantic output validation.
 
 ---
 
@@ -61,8 +61,8 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
       </td>
       <td>
         • Full-duplex voice & text assessment platform with sub-300ms WebSocket streaming latency.<br/>
-        • Multi-agent LangGraph evaluation graph scoring responses against dynamic rubrics and generating asynchronous scorecards.<br/>
-        • Multi-tier LLM fallback routing (Groq Qwen-27b + Gemini Flash) ensuring 99.9% uptime.
+        • Multi-agent LangGraph evaluation graph scoring responses against dynamic rubrics.<br/>
+        • Multi-tier LLM fallback routing (Groq Qwen-27b + Gemini Flash) ensuring continuous uptime.
       </td>
       <td>
         <code>FastAPI</code> <code>LangGraph</code><br/>
@@ -78,17 +78,17 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
     <tr>
       <td>
         <strong>🚢 Shiphny AI Support</strong><br/>
-        <em>Logistics & Customer Operations Agent</em>
+        <em>Multi-Agent Logistics & Customer Platform</em>
       </td>
       <td>
-        • Audited 5-layer prompt injection defense framework passing 24/24 penetration attack vectors.<br/>
-        • Asynchronous task decoupling via Redis and Celery queues to maintain sub-500ms API response times under load.<br/>
-        • Real-time parcel tracking via RAG with automated GDPR-compliant PII data masking.
+        • LangGraph cyclic state machine enforcing authenticated tool boundaries (tracking, cancellation, billing).<br/>
+        • Decoupled background task orchestration with Redis session cache and PostgreSQL ledgers.<br/>
+        • Automated LLM fallback chain across Groq and Gemini for high-availability customer tracking.
       </td>
       <td>
-        <code>FastAPI</code> <code>LangChain</code><br/>
-        <code>AWS EKS</code> <code>Terraform</code><br/>
-        <code>Redis</code> <code>Docker</code>
+        <code>FastAPI</code> <code>LangGraph</code><br/>
+        <code>PostgreSQL</code> <code>Redis</code><br/>
+        <code>Docker</code> <code>Terraform</code>
       </td>
       <td>
         <a href="https://shiphny-ai-support.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
@@ -103,12 +103,12 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
       <td>
         • Multimodal OCR processing complex engineering schematics and invoices via Llama 3.2 Vision.<br/>
         • Whisper voice integration for automated audio memo transcription and compliance cross-checks.<br/>
-        • Strict Pydantic schema validation ensuring deterministic data extraction into downstream ERPs.
+        • Strict Pydantic schema validation ensuring deterministic data extraction into downstream systems.
       </td>
       <td>
         <code>FastAPI</code> <code>Whisper</code><br/>
         <code>Llama Vision</code> <code>Pydantic</code><br/>
-        <code>Python</code> <code>OCR</code>
+        <code>React 18</code> <code>TypeScript</code>
       </td>
       <td>
         <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>🌐 Live Demo</strong></a><br/>
@@ -117,21 +117,21 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
     </tr>
     <tr>
       <td>
-        <strong>🚨 Autonomous SRE Swarm</strong><br/>
-        <em>Self-Healing Incident Remediation Swarm</em>
+        <strong>🛡️ AI Safety & Guardrail API</strong><br/>
+        <em>High-Throughput LLM Security Firewall</em>
       </td>
       <td>
-        • Multi-agent AIOps swarm using LangGraph for log anomaly detection and root-cause analysis (RCA).<br/>
-        • Automated canary rollback pipelines and self-healing cloud infrastructure remediation workflows.<br/>
-        • Human-in-the-loop review gates preventing unauthorized cluster state modifications.
+        • High-speed FastAPI middleware intercepting prompts before upstream LLM inference.<br/>
+        • Real-time prompt injection mitigation, jailbreak heuristic detection, and automated PII scrubbing.<br/>
+        • Sub-5ms latency overhead engineered for enterprise API gateways with full Pytest test suite.
       </td>
       <td>
-        <code>Python</code> <code>LangGraph</code><br/>
-        <code>Kubernetes</code> <code>AIOps</code><br/>
-        <code>Observability</code> <code>Docker</code>
+        <code>FastAPI</code> <code>Pydantic</code><br/>
+        <code>Pytest</code> <code>Docker</code><br/>
+        <code>LLM Security</code>
       </td>
       <td>
-        <a href="https://github.com/ahmedgeeter/Autonomous-SRE-Incident-Remediation-Swarm"><strong>📂 GitHub Repo</strong></a>
+        <a href="https://github.com/ahmedgeeter/LLM-Safety-Guardrail-API"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
     <tr>
@@ -174,44 +174,6 @@ Unlike experimental notebook scripts, I engineer the **low-latency streaming pip
         <a href="https://github.com/ahmedgeeter/fullstack-gym-rag-chatbot"><strong>📂 GitHub Repo</strong></a>
       </td>
     </tr>
-    <tr>
-      <td>
-        <strong>⚡ Telegram Store & Commerce Bot</strong><br/>
-        <em>High-Concurrency Digital Storefront Bot</em>
-      </td>
-      <td>
-        • Asynchronous serverless bot powered by Aiogram 3, Supabase PostgreSQL, and Redis caching.<br/>
-        • Integrated InstaPay, Vodafone Cash, and digital currency checkout flows with zero-trap FSM.<br/>
-        • Sub-second cold starts with automated keep-alive health monitoring on Vercel.
-      </td>
-      <td>
-        <code>Aiogram 3</code> <code>FastAPI</code><br/>
-        <code>PostgreSQL</code> <code>Redis</code><br/>
-        <code>Supabase</code> <code>Vercel</code>
-      </td>
-      <td>
-        <a href="https://github.com/ahmedgeeter/Fully-functional-Telegram-RAG-Agent"><strong>📂 GitHub Repo</strong></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>🛡️ AI Safety & Guardrail API</strong><br/>
-        <em>High-Throughput LLM Security Firewall</em>
-      </td>
-      <td>
-        • High-speed FastAPI middleware intercepting prompts before upstream LLM inference.<br/>
-        • Real-time prompt injection mitigation, jailbreak detection, and toxicity scoring.<br/>
-        • Sub-millisecond latency overhead engineered for enterprise API gateways.
-      </td>
-      <td>
-        <code>FastAPI</code> <code>Pydantic</code><br/>
-        <code>Cybersecurity</code> <code>Docker</code><br/>
-        <code>LLM Security</code>
-      </td>
-      <td>
-        <a href="https://github.com/ahmedgeeter/LLM-Safety-Guardrail-API"><strong>📂 GitHub Repo</strong></a>
-      </td>
-    </tr>
   </tbody>
 </table>
 
@@ -244,8 +206,8 @@ graph LR
 | :--- | :--- |
 | **AI & Agentic Systems** | `LangGraph` • `LangChain` • `LlamaIndex` • `LiteLLM` • `FAISS` • `ChromaDB` • `Whisper` • `Llama 3.2 Vision` |
 | **Backend & Microservices** | `Python (AsyncIO)` • `FastAPI` • `WebSockets` • `Celery` • `Pydantic` • `RESTful Architecture` |
-| **Databases & Caching** | `PostgreSQL` • `Supabase` • `Redis (Caching, Pub/Sub, Queues)` • `SQLite` |
-| **Cloud & DevOps** | `Docker` • `Kubernetes (EKS)` • `Terraform (IaC)` • `AWS (EC2, S3, IAM)` • `GitHub Actions CI/CD` • `Linux` |
+| **Databases & Caching** | `PostgreSQL` • `Supabase` • `Redis (Caching, Pub/Sub, Queues)` • `SQLite` • `Alembic` |
+| **Cloud & DevOps** | `Docker` • `Kubernetes` • `Terraform (IaC)` • `AWS (EC2, S3)` • `GitHub Actions CI/CD` • `Linux` |
 | **Frontend & UI** | `TypeScript` • `Next.js` • `React` • `Tailwind CSS` |
 
 <br/>
@@ -279,13 +241,19 @@ graph LR
 
 ### 💼 Professional Journey & Experience
 
-- **AI Software Engineer & Freelance Solutions Developer** *(Jan 2024 – Present)*
+- **Software Engineer (AI & Backend) | Independent Contractor** *(Jan 2024 – Present)*
   - Designed and deployed production-grade RAG systems and multi-agent backend APIs using FastAPI and Python.
   - Implemented multi-provider LLM fallback routing to handle upstream provider limits and maintain application reliability.
   - Built automated CI/CD deployment pipelines using Docker and GitHub Actions.
-- **AI Alignment & Evaluation Specialist** *(Atlas Capture & Outlier · Dec 2024 – Jun 2025)*
+
+- **AI Integration Engineer | Springer Capital** *(Remote Contract · May 2025 – Sep 2025)*
+  - Automated internal operational workflows and data transformation pipelines by developing custom Python endpoints and LLM integration scripts.
+  - Collaborated with remote engineering squads to standardize data schemas and optimize ingestion reliability.
+
+- **AI Alignment & Code Security Specialist | Atlas Capture** *(Remote Contract · Dec 2024 – Feb 2025)*
   - Evaluated and debugged complex Python and TypeScript code generated by frontier LLMs for RLHF alignment datasets.
   - Tested adversarial attack benchmarks and prompt injection mitigation to improve model safety and code accuracy.
+
 - **B.Sc. in Computer Science** *(Mansoura University, Egypt · 2019 – 2023)*
 
 ---
