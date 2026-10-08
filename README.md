@@ -1,20 +1,16 @@
 <div align="center">
 
 # Ahmed Gaiter
-**AI & Backend Software Engineer**
 
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=6366F1&center=true&vCenter=true&width=750&lines=AI+%26+Backend+Software+Engineer;Asynchronous+Python+(FastAPI+%26+AsyncIO);Stateful+Agentic+Workflows+(LangGraph);Distributed+Task+Queues+(Redis+%26+Celery);Production+RAG+%26+LLM+Resilience+Routing" alt="Typing Banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2500&pause=1200&color=6366F1&center=true&vCenter=true&width=800&lines=AI+%26+Backend+Software+Engineer;Asynchronous+Python+(FastAPI+%26+AsyncIO);Stateful+Agentic+Workflows+(LangGraph);Distributed+Task+Queues+(Redis+%26+Celery);Production+RAG+%26+LLM+Resilience+Routing" alt="Typing Banner" />
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-ahmedgaiter.site-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://www.ahmedgaiter.site/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--ai--dev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-ai-dev/)
-[![GitHub](https://img.shields.io/badge/GitHub-ahmedgeeter-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedgeeter)
-[![Email](https://img.shields.io/badge/Email-ahmedekramy303%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmedekramy303@gmail.com)
-
-<br/>
+<p align="center">
+  <a href="https://www.ahmedgaiter.site/"><img src="https://img.shields.io/badge/Portfolio-ahmedgaiter.site-0f172a?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/ahmed-ai-dev/"><img src="https://img.shields.io/badge/LinkedIn-ahmed--ai--dev-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/ahmedgeeter"><img src="https://img.shields.io/badge/GitHub-ahmedgeeter-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:ahmedekramy303@gmail.com"><img src="https://img.shields.io/badge/Email-ahmedekramy303%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://maps.google.com"><img src="https://img.shields.io/badge/Location-Egypt%20%7C%20Remote-374151?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" /></a>
+</p>
 
 </div>
 
@@ -78,8 +74,8 @@ Instead of building brittle direct-API wrappers, my systems implement three prov
 <table>
   <thead>
     <tr>
-      <th width="25%">System</th>
-      <th width="43%">Architecture & Highlights</th>
+      <th width="24%">System</th>
+      <th width="44%">Architecture & Highlights</th>
       <th width="18%">Tech Stack</th>
       <th width="14%">Repository</th>
     </tr>
@@ -88,22 +84,20 @@ Instead of building brittle direct-API wrappers, my systems implement three prov
     <tr>
       <td>
         <strong>AutoHire</strong><br/>
-        <em>Real-Time Autonomous Technical Interviewer</em>
+        <em>Autonomous Technical Interviewer</em>
       </td>
       <td>
-        • Full-duplex WebSocket architecture in FastAPI for bi-directional candidate streaming.<br/>
-        • Event-driven LangGraph state machine calibrating question depth dynamically.<br/>
-        • Scoring and analysis offloaded to asynchronous Celery workers backed by Redis.<br/>
-        • Automated fallback routing (Groq ➔ Gemini) for uninterrupted live sessions.<br/>
-        • Comprehensive Pytest integration suite for connection lifecycles and graph transitions.
+        • Full-duplex WebSocket architecture in FastAPI for bi-directional streaming.<br/>
+        • Event-driven LangGraph state machine calibrating questions dynamically.<br/>
+        • Asynchronous transcript scoring via Celery workers backed by Redis.<br/>
+        • Automated provider fallback (Groq ➔ Gemini) for uninterrupted uptime.<br/>
+        • Full Pytest test suite covering WebSocket lifecycle and mock fixtures.
       </td>
       <td>
         <code>Python (AsyncIO)</code><br/>
-        <code>FastAPI</code><br/>
-        <code>WebSockets</code><br/>
-        <code>LangGraph</code><br/>
-        <code>Celery</code> <code>Redis</code><br/>
-        <code>Pytest</code>
+        <code>FastAPI</code> <code>WebSockets</code><br/>
+        <code>LangGraph</code> <code>Celery</code><br/>
+        <code>Redis</code> <code>Pytest</code>
       </td>
       <td>
         <a href="https://ai-automation-interview.vercel.app/"><strong>Live Demo</strong></a><br/>
@@ -116,17 +110,16 @@ Instead of building brittle direct-API wrappers, my systems implement three prov
         <em>Multimodal Document & Vocal Inspector</em>
       </td>
       <td>
-        • Vision-language pipeline parsing complex engineering blueprints and invoices via Llama 3.2 Vision.<br/>
-        • Whisper voice integration enabling real-time vocal compliance audits with Voice Activity Detection (VAD).<br/>
-        • Deterministic output extraction enforced via strict Pydantic v2 models, preventing schema drift.
+        • Vision-language pipeline auditing blueprints and invoices via Llama 3.2 Vision.<br/>
+        • Whisper voice integration with intelligent Voice Activity Detection (VAD).<br/>
+        • Strict Pydantic v2 schema validation preventing model hallucinations.<br/>
+        • Dockerized backend with full Pytest integration test suite.
       </td>
       <td>
-        <code>Python</code><br/>
-        <code>FastAPI</code><br/>
-        <code>Llama Vision</code><br/>
-        <code>Whisper</code><br/>
-        <code>Pydantic v2</code><br/>
-        <code>React</code>
+        <code>Python</code> <code>FastAPI</code><br/>
+        <code>Llama 3.2 Vision</code><br/>
+        <code>Whisper</code> <code>Pydantic v2</code><br/>
+        <code>React</code> <code>TypeScript</code>
       </td>
       <td>
         <a href="https://ai-auditor-ocr-voice.vercel.app/"><strong>Live Demo</strong></a><br/>
@@ -136,21 +129,19 @@ Instead of building brittle direct-API wrappers, my systems implement three prov
     <tr>
       <td>
         <strong>Shiphny</strong><br/>
-        <em>Multi-Agent Logistics & Customer Support</em>
+        <em>Multi-Agent Logistics Platform</em>
       </td>
       <td>
-        • LangGraph cyclic state machine enforcing authenticated tool boundaries (tracking, cancellation, billing).<br/>
-        • Decoupled background workflows with Redis session storage and PostgreSQL ledgers.<br/>
-        • Automated multi-provider LLM fallback routing chained across Groq and Gemini.<br/>
-        • Automated CI/CD pipeline building multi-stage Docker images to GitHub Container Registry (GHCR).
+        • LangGraph cyclic state machine enforcing authenticated tool boundaries.<br/>
+        • Decoupled background workflows with Redis sessions and PostgreSQL ledgers.<br/>
+        • Automated multi-provider LLM fallback routing across Groq and Gemini.<br/>
+        • Automated CI/CD pipeline building Docker images to GHCR with Helm charts.
       </td>
       <td>
-        <code>FastAPI</code><br/>
-        <code>LangGraph</code><br/>
-        <code>PostgreSQL</code><br/>
-        <code>Redis</code><br/>
-        <code>Docker</code><br/>
-        <code>Terraform</code>
+        <code>FastAPI</code> <code>LangGraph</code><br/>
+        <code>PostgreSQL</code> <code>Redis</code><br/>
+        <code>Docker</code> <code>CI/CD</code><br/>
+        <code>Terraform</code> <code>Helm</code>
       </td>
       <td>
         <a href="https://shiphny-ai-support.vercel.app/"><strong>Live Demo</strong></a><br/>
@@ -160,20 +151,18 @@ Instead of building brittle direct-API wrappers, my systems implement three prov
     <tr>
       <td>
         <strong>AI Guardrail API</strong><br/>
-        <em>High-Throughput Safety & PII Redactor</em>
+        <em>High-Throughput Safety Middleware</em>
       </td>
       <td>
-        • Pre-flight prompt inspection middleware catching adversarial injection and jailbreak patterns.<br/>
-        • Automated regex-compiled PII sanitization (Emails, Phones, Credit Cards, API Keys, SSNs).<br/>
-        • Optimized for sub-5ms heuristic evaluation overhead with zero external ML runtime dependencies.<br/>
-        • Fully tested with Pytest covering clean queries, attack attempts, and redaction verification.
+        • Pre-flight prompt inspection catching injection and jailbreak patterns.<br/>
+        • Automated regex-compiled PII redaction (Emails, Phones, Cards, API Keys).<br/>
+        • Sub-5ms latency overhead engineered for enterprise API gateways.<br/>
+        • Full Pytest test suite covering clean queries, injection attacks, and PII.
       </td>
       <td>
-        <code>Python</code><br/>
-        <code>FastAPI</code><br/>
-        <code>Pydantic v2</code><br/>
+        <code>Python</code> <code>FastAPI</code><br/>
+        <code>Pydantic v2</code> <code>Docker</code><br/>
         <code>Regex Automata</code><br/>
-        <code>Docker</code><br/>
         <code>Pytest</code>
       </td>
       <td>
